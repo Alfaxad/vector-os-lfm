@@ -251,7 +251,7 @@ Prerequisites:
 Clone the repo:
 
 ```bash
-git clone <your-repo-url> vector-os-lfm
+git clone https://github.com/Alfaxad/vector-os-lfm.git
 cd vector-os-lfm
 ```
 
@@ -281,7 +281,14 @@ Initialize Django:
 python manage.py migrate
 ```
 
-Run the app:
+## Starting The App
+
+### Option A: Single Django Server
+
+This is the simplest way to run the demo. Django serves both the API and the
+built React app.
+
+Terminal 1:
 
 ```bash
 python manage.py runserver 127.0.0.1:8000
@@ -293,9 +300,51 @@ Open:
 http://127.0.0.1:8000
 ```
 
+### Option B: Two Servers For Frontend Development
+
+Use this while editing React, CSS, or map interactions. Django serves the API,
+and Vite serves the frontend with hot reload. The Vite dev server proxies
+`/api/...` requests to Django.
+
+Terminal 1, from the repo root:
+
+```bash
+source .venv/bin/activate
+python manage.py runserver 127.0.0.1:8000
+```
+
+Terminal 2:
+
+```bash
+cd frontend
+npm run dev -- --host 127.0.0.1
+```
+
+Open:
+
+```text
+http://127.0.0.1:5173
+```
+
 The first live inference request downloads
 `Alfaxad/Vector-LFM2.5-VL-450M` from Hugging Face if it is not already cached.
 The worker chooses CUDA when available, then Apple MPS, then CPU.
+
+### Optional Live Data Servers
+
+The bundled demo does not require external data servers because the compact
+SimSat image crops, sidecars, and context patches are already checked in.
+
+Optional live connectors can be enabled through `.env`:
+
+- `SIMSAT_API_BASE_URL`: points to a running SimSat service. VectorOS expects
+  Sentinel-2 at `/data/image/sentinel` and Mapbox imagery at `/data/image/mapbox`.
+  If unset or unavailable, the app uses the bundled cached crops.
+- `MAPBOX_ACCESS_TOKEN`: optional server-side token for live Mapbox-backed
+  SimSat imagery. Do not expose this token in browser code.
+- `HEALTHSITES_API_KEY`: optional server-side key for live Healthsites lookup.
+
+After changing `.env`, restart the Django server.
 
 ## Configuration
 
