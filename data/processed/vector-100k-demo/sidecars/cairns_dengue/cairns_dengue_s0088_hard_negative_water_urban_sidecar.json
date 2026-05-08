@@ -1,0 +1,145 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "cairns_dengue_s0088_hard_negative_water_urban",
+  "aoi_id": "cairns_dengue",
+  "split": "test",
+  "disease_module": "dengue_aedes",
+  "primary_disease": "dengue",
+  "country": "Australia",
+  "name": "Cairns, Queensland, Australia",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 145.8145944524591,
+    "lat": -16.84533540135946
+  },
+  "bbox": [
+    145.7911034240483,
+    -16.867818441507428,
+    145.8380854808699,
+    -16.822852361211492
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/cairns_dengue/cairns_dengue_s0088_hard_negative_water_urban_packet.png",
+    "sha256": "e0fb5c62b1d79e15e3a4c5acc0b412baffbb554a89e72eb5709e92fa1996a806",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/cairns_dengue/cairns_dengue_s0088_hard_negative_water_urban",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/cairns_dengue/cairns_dengue_s0088_hard_negative_water_urban/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/cairns_dengue/cairns_dengue_s0088_hard_negative_water_urban/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/cairns_dengue/cairns_dengue_s0088_hard_negative_water_urban/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/cairns_dengue/cairns_dengue_s0088_hard_negative_water_urban/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/cairns_dengue/cairns_dengue_s0088_hard_negative_water_urban/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/cairns_dengue/cairns_dengue_s0088_hard_negative_water_urban/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/cairns_australia/cairns_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/cairns_australia/cairns_worldpop_2020_100m_arcgis.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/cairns_australia/cairns_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/cairns_australia/cairns_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/cairns_australia/cairns_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/cairns_australia/cairns_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/cairns_australia/osm_health_facilities_cairns.overpass.json",
+        "major_roads": "data/raw/osm/cairns_australia/osm_major_roads_cairns.overpass.json",
+        "schools_waterpoints": "data/raw/osm/cairns_australia/osm_schools_waterpoints_cairns.overpass.json",
+        "urban_landuse": "data/raw/osm/cairns_australia/osm_urban_landuse_cairns.overpass.json",
+        "water_surface": "data/raw/osm/cairns_australia/osm_water_surface_cairns.overpass.json",
+        "waterways": "data/raw/osm/cairns_australia/osm_waterways_cairns.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/cairns_australia/gbif_aedes_cairns_occurrences.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/cairns_dengue_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/cairns_dengue/cairns_dengue_s0088_hard_negative_water_urban_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 94.470769,
+    "sentinel_datetime": "2025-12-18T00:31:46Z",
+    "sentinel_source": "sentinel-2c",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "hard_negative_water_urban",
+    "packet_std": 118.4229,
+    "repair_attempts": 1
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": -9999.0,
+        "max": -1427.5062,
+        "mean": -5914.502,
+        "median": -5924.5249,
+        "p90": -2326.0688
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 0,
+      "major_roads": 0,
+      "schools_waterpoints": 0,
+      "urban_landuse": 0,
+      "water_surface": 0,
+      "waterways": 0
+    },
+    "label_counts": {
+      "vector_label": 0,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "hard_or_ecological_negative",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "hard_negative_water_urban",
+    "sampler_version": "stratified-v0.1"
+  }
+}

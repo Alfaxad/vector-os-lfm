@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2a",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    2.026092238715802,
+    13.330260154220133,
+    2.0723076752370133,
+    13.375226234516068
+  ],
+  "cloud_cover": 6.220992,
+  "datetime": "2025-11-10T10:27:36Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2A_31PCQ_20251110_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/niamey_schistosomiasis/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

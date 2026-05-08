@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "busia_schistosomiasis_s0189_hard_negative_water_urban",
+    "aoi_id": "busia_schistosomiasis",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {
+      "schools_waterpoints": 2,
+      "urban": 7
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9097263,
+          0.2078472
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "schools_waterpoints",
+        "source": "OpenStreetMap",
+        "name": "Buchumba Hill Primary School",
+        "title": "Community exposure context",
+        "summary": "OSM maps Buchumba Hill Primary School as school, waterpoint, or community exposure context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 4030505940,
+          "amenity": "school"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9126961,
+          0.2467464
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "schools_waterpoints",
+        "source": "OpenStreetMap",
+        "name": "Nangera Baptist Primary School",
+        "title": "Community exposure context",
+        "summary": "OSM maps Nangera Baptist Primary School as school, waterpoint, or community exposure context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 4030505983,
+          "amenity": "school"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.916667,
+          0.233333
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Bukunya",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Bukunya as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 2229101461
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9136755,
+          0.2289665
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Buchinia A",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Buchinia A as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9147286024
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9200174,
+          0.2215311
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Buchinia B",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Buchinia B as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9147286025
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9297855,
+          0.2460241
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Daha B",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Daha B as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9147286026
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9339406,
+          0.234543
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Budecho",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Budecho as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9147286027
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9261653,
+          0.2436186
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Dakha A",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Dakha A as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 10581623663
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9339366,
+          0.230532
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Budecho",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Budecho as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 10581623667
+        }
+      }
+    }
+  ]
+}

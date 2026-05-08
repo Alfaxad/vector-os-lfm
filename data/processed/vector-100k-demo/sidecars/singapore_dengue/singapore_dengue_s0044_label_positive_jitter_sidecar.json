@@ -1,0 +1,153 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "singapore_dengue_s0044_label_positive_jitter",
+  "aoi_id": "singapore_dengue",
+  "split": "train",
+  "disease_module": "dengue_aedes",
+  "primary_disease": "dengue",
+  "country": "Singapore",
+  "name": "Singapore",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 103.86076120980559,
+    "lat": 1.3000389318459775
+  },
+  "bbox": [
+    103.83827238089603,
+    1.2775558916980092,
+    103.88325003871515,
+    1.3225219719939458
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/singapore_dengue/singapore_dengue_s0044_label_positive_jitter_packet.png",
+    "sha256": "485e292f4a0a1898d93fd32d6f9c93bcd5ad2bc66e61ccd0e38a90cf95337393",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/singapore_dengue/singapore_dengue_s0044_label_positive_jitter",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/singapore_dengue/singapore_dengue_s0044_label_positive_jitter/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/singapore_dengue/singapore_dengue_s0044_label_positive_jitter/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/singapore_dengue/singapore_dengue_s0044_label_positive_jitter/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/singapore_dengue/singapore_dengue_s0044_label_positive_jitter/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/singapore_dengue/singapore_dengue_s0044_label_positive_jitter/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/singapore_dengue/singapore_dengue_s0044_label_positive_jitter/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/singapore/singapore_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/singapore/singapore_worldpop_2025_constrained_100m.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/singapore/singapore_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/singapore/singapore_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/singapore/singapore_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/singapore/singapore_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/singapore/osm_health_facilities_singapore.overpass.json",
+        "major_roads": "data/raw/osm/singapore/osm_major_roads_singapore.overpass.json",
+        "urban_landuse": "data/raw/osm/singapore/osm_urban_landuse_singapore.overpass.json",
+        "water_surface": "data/raw/osm/singapore/osm_water_surface_singapore.overpass.json",
+        "waterways": "data/raw/osm/singapore/osm_waterways_singapore.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/singapore/gbif_aedes_singapore_occurrences.csv"
+        ],
+        "opendengue_disease": [
+          "data/processed/aoi/singapore_dengue/National_extract_singapore_V1_3.csv",
+          "data/processed/aoi/singapore_dengue/Spatial_extract_singapore_V1_3.csv",
+          "data/processed/aoi/singapore_dengue/Temporal_extract_singapore_V1_3.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/singapore_dengue_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/singapore_dengue/singapore_dengue_s0044_label_positive_jitter_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 10.657708,
+    "sentinel_datetime": "2025-12-05T03:37:54Z",
+    "sentinel_source": "sentinel-2c",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "label_positive_jitter",
+    "packet_std": 65.5376,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p90": 0.0
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 245947,
+        "min": 0.0,
+        "max": 681.6466,
+        "mean": 70.5385,
+        "median": 26.8804,
+        "p90": 178.1681
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 197,
+      "major_roads": 3417,
+      "urban_landuse": 475,
+      "water_surface": 72,
+      "waterways": 93
+    },
+    "label_counts": {
+      "vector_label": 36,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 1
+    }
+  },
+  "label_quality": {
+    "tier": "weak_label_positive",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "label_positive_jitter",
+    "sampler_version": "stratified-v0.1"
+  }
+}

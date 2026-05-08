@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2b",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    37.426728569395635,
+    -0.8182825756398275,
+    37.471698987316984,
+    -0.7733164953438909
+  ],
+  "cloud_cover": 4.353177,
+  "datetime": "2025-09-29T08:00:07Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2B_37MCV_20250929_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/mwea_schistosomiasis/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

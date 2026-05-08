@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2a",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    -4.317186998897114,
+    11.15651497249998,
+    -4.271351244135628,
+    11.201481052795916
+  ],
+  "cloud_cover": 0,
+  "datetime": "2025-12-29T10:58:22Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2A_30PUT_20251229_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/bobo_dioulasso_malaria/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

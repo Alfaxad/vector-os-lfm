@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2a",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    -15.673607650400196,
+    16.450130203815288,
+    -15.626716959591604,
+    16.495096284111224
+  ],
+  "cloud_cover": 0.004145,
+  "datetime": "2025-12-14T11:47:05Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2A_28QDD_20251214_1_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/richard_toll_schistosomiasis/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

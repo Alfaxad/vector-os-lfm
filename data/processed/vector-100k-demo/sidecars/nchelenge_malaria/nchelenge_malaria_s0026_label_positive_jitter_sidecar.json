@@ -1,0 +1,157 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "nchelenge_malaria_s0026_label_positive_jitter",
+  "aoi_id": "nchelenge_malaria",
+  "split": "validation",
+  "disease_module": "mosquito_anopheles_malaria",
+  "primary_disease": "malaria",
+  "country": "Zambia",
+  "name": "Nchelenge District, Zambia",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 28.8119951851713,
+    "lat": -9.356732975256213
+  },
+  "bbox": [
+    28.78920897948372,
+    -9.37921601540418,
+    28.834781390858875,
+    -9.334249935108245
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/nchelenge_malaria/nchelenge_malaria_s0026_label_positive_jitter_packet.png",
+    "sha256": "824e5c8a08542f92dadae6ba3c30caa9d98bbe0c42243794d52eb1b900bedc68",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/nchelenge_malaria/nchelenge_malaria_s0026_label_positive_jitter",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/nchelenge_malaria/nchelenge_malaria_s0026_label_positive_jitter/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/nchelenge_malaria/nchelenge_malaria_s0026_label_positive_jitter/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/nchelenge_malaria/nchelenge_malaria_s0026_label_positive_jitter/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/nchelenge_malaria/nchelenge_malaria_s0026_label_positive_jitter/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/nchelenge_malaria/nchelenge_malaria_s0026_label_positive_jitter/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/nchelenge_malaria/nchelenge_malaria_s0026_label_positive_jitter/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/nchelenge_zambia/nchelenge_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/nchelenge_zambia/nchelenge_worldpop_2020_100m_arcgis.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/nchelenge_zambia/nchelenge_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/nchelenge_zambia/nchelenge_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/nchelenge_zambia/nchelenge_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/nchelenge_zambia/nchelenge_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/nchelenge_zambia/osm_health_facilities_nchelenge.overpass.json",
+        "major_roads": "data/raw/osm/nchelenge_zambia/osm_major_roads_nchelenge.overpass.json",
+        "schools_waterpoints": "data/raw/osm/nchelenge_zambia/osm_schools_waterpoints_nchelenge.overpass.json",
+        "urban_landuse": "data/raw/osm/nchelenge_zambia/osm_urban_landuse_nchelenge.overpass.json",
+        "water_surface": "data/raw/osm/nchelenge_zambia/osm_water_surface_nchelenge.overpass.json",
+        "waterways": "data/raw/osm/nchelenge_zambia/osm_waterways_nchelenge.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/nchelenge_zambia/gbif_anopheles_nchelenge_occurrences.csv"
+        ],
+        "map_disease": [
+          "data/raw/map_malariaatlas/nchelenge_zambia/map_pf_pr_202406_nchelenge.geojson",
+          "data/raw/map_malariaatlas/nchelenge_zambia/map_pv_pr_202406_nchelenge.geojson"
+        ],
+        "map_vector": [
+          "data/raw/map_malariaatlas/nchelenge_zambia/map_dominant_vector_surveys_201201_nchelenge.geojson"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/nchelenge_malaria_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/nchelenge_malaria/nchelenge_malaria_s0026_label_positive_jitter_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 0.000126,
+    "sentinel_datetime": "2025-09-03T08:33:09Z",
+    "sentinel_source": "sentinel-2c",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "label_positive_jitter",
+    "packet_std": 40.4219,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 4.5269,
+        "max": 4.7825,
+        "mean": 4.5741,
+        "median": 4.5656,
+        "p90": 4.6245
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 259926,
+        "min": 0.3179,
+        "max": 0.565,
+        "mean": 0.4024,
+        "median": 0.3818,
+        "p90": 0.5044
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 0,
+      "major_roads": 13,
+      "schools_waterpoints": 2,
+      "urban_landuse": 504,
+      "water_surface": 2,
+      "waterways": 6
+    },
+    "label_counts": {
+      "vector_label": 0,
+      "disease_label": 8,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "weak_label_positive",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "label_positive_jitter",
+    "sampler_version": "stratified-v0.1"
+  }
+}

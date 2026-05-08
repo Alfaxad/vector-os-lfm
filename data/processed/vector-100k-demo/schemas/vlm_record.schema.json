@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VectorOS scaled LFM2.5-VL message record schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "example_id",
+    "split",
+    "task",
+    "image",
+    "messages",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "vectoros-vlm-example-v0.2"
+    },
+    "example_id": {
+      "type": "string"
+    },
+    "split": {
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ]
+    },
+    "task": {
+      "enum": [
+        "risk_tile_json",
+        "officer_explanation",
+        "evidence_cards_json",
+        "uncertainty_audit_json",
+        "field_task_brief",
+        "habitat_patch_summary",
+        "exposure_summary_json",
+        "hard_negative_assessment",
+        "source_provenance_json",
+        "copilot_why_here"
+      ]
+    },
+    "image": {
+      "type": "string"
+    },
+    "messages": {
+      "type": "array",
+      "minItems": 3
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

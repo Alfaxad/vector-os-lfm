@@ -1,0 +1,414 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "tororo_malaria_s0186_random_ecological",
+    "aoi_id": "tororo_malaria",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {
+      "urban": 16,
+      "water": 2
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.933333,
+          0.65
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kisoko",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kisoko as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 2229117013
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.95,
+          0.65
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kyawolo",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kyawolo as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 2229117874
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9372072,
+          0.6391404
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Patumbu",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Patumbu as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9763919748
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9112753,
+          0.6431537
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Namayuni",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Namayuni as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9763919750
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9142711,
+          0.6671222
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Fungwe 'a'",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Fungwe 'a' as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9763919752
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9359728,
+          0.6516659
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Sirongo 'b'",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Sirongo 'b' as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9767382213
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9399055,
+          0.6580004
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Sirongo 'a'",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Sirongo 'a' as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9767382214
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9381933,
+          0.6674276
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Pombelo",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Pombelo as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9767413250
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9288686,
+          0.6668472
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Pawira",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Pawira as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9767413251
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9484085,
+          0.6692061
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Ngota",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Ngota as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9767413252
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9268863,
+          0.6735037
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Magoka 'b'",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Magoka 'b' as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9767413258
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9391014,
+          0.6766441
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Magoka 'a'",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Magoka 'a' as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9767413259
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.946262,
+          0.6826284
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Bujwala B 'b'",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Bujwala B 'b' as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 9767413261
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.94194895,
+          0.671176
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Ligingi Church of Uganda",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Ligingi Church of Uganda as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 767294035,
+          "amenity": "place_of_worship"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.94131415,
+          0.67226385
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Ligingi Health Centre II Latrines",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Ligingi Health Centre II Latrines as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 767306815
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.939341999999996,
+          0.67386015
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Liberty Christian Church Ligingi",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Liberty Christian Church Ligingi as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 767310552,
+          "amenity": "place_of_worship"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.8877314,
+          0.65894835
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "river",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps river as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 761438920,
+          "waterway": "river"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.13316135,
+          0.67032395
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Malaba",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Malaba as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "relation",
+          "osm_id": 2778229,
+          "waterway": "river"
+        }
+      }
+    }
+  ]
+}

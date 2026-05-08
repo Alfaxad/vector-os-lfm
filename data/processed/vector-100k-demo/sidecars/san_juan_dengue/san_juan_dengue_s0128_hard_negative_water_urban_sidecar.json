@@ -1,0 +1,150 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "san_juan_dengue_s0128_hard_negative_water_urban",
+  "aoi_id": "san_juan_dengue",
+  "split": "validation",
+  "disease_module": "dengue_aedes",
+  "primary_disease": "dengue",
+  "country": "Puerto Rico",
+  "name": "San Juan, Puerto Rico",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": -66.11406692036753,
+    "lat": 18.469200292774158
+  },
+  "bbox": [
+    -66.13777085321125,
+    18.44671725262619,
+    -66.09036298752382,
+    18.491683332922126
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/san_juan_dengue/san_juan_dengue_s0128_hard_negative_water_urban_packet.png",
+    "sha256": "2b13cd98521bf30cff9af21e8bcf85e50e17840ed4886706bcbc8d56174cbde7",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/san_juan_dengue/san_juan_dengue_s0128_hard_negative_water_urban",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/san_juan_dengue/san_juan_dengue_s0128_hard_negative_water_urban/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/san_juan_dengue/san_juan_dengue_s0128_hard_negative_water_urban/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/san_juan_dengue/san_juan_dengue_s0128_hard_negative_water_urban/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/san_juan_dengue/san_juan_dengue_s0128_hard_negative_water_urban/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/san_juan_dengue/san_juan_dengue_s0128_hard_negative_water_urban/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/san_juan_dengue/san_juan_dengue_s0128_hard_negative_water_urban/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/san_juan_puerto_rico/san_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/san_juan_puerto_rico/san_worldpop_2020_100m_arcgis.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/san_juan_puerto_rico/san_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/san_juan_puerto_rico/san_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/san_juan_puerto_rico/san_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/san_juan_puerto_rico/san_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/san_juan_puerto_rico/osm_health_facilities_san.overpass.json",
+        "major_roads": "data/raw/osm/san_juan_puerto_rico/osm_major_roads_san.overpass.json",
+        "schools_waterpoints": "data/raw/osm/san_juan_puerto_rico/osm_schools_waterpoints_san.overpass.json",
+        "urban_landuse": "data/raw/osm/san_juan_puerto_rico/osm_urban_landuse_san.overpass.json",
+        "water_surface": "data/raw/osm/san_juan_puerto_rico/osm_water_surface_san.overpass.json",
+        "waterways": "data/raw/osm/san_juan_puerto_rico/osm_waterways_san.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/san_juan_puerto_rico/gbif_aedes_san_occurrences.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/san_juan_dengue_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/san_juan_dengue/san_juan_dengue_s0128_hard_negative_water_urban_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 3.277566,
+    "sentinel_datetime": "2025-12-27T15:07:44Z",
+    "sentinel_source": "sentinel-2b",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "hard_negative_water_urban",
+    "packet_std": 59.8107,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": -3319.3936,
+        "max": 14.8448,
+        "mean": -606.4905,
+        "median": 12.8137,
+        "p90": 13.9702
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 40121,
+        "min": 0.0,
+        "max": 253.0441,
+        "mean": 15.1361,
+        "median": 0.011,
+        "p90": 54.4863
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 12,
+      "major_roads": 546,
+      "schools_waterpoints": 14,
+      "urban_landuse": 1717,
+      "water_surface": 5,
+      "waterways": 0
+    },
+    "label_counts": {
+      "vector_label": 5,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "weak_label_positive",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "hard_negative_water_urban",
+    "sampler_version": "stratified-v0.1"
+  }
+}

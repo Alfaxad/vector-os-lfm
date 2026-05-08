@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2a",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    34.08126402713233,
+    0.4383543289601353,
+    34.126231561938745,
+    0.48332040925607184
+  ],
+  "cloud_cover": 0.531272,
+  "datetime": "2025-12-08T08:10:14Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2A_36NXF_20251208_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/busia_schistosomiasis/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2b",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    34.00131174921927,
+    0.7463740298250268,
+    34.04628187838287,
+    0.7913401101209634
+  ],
+  "cloud_cover": 30.772555,
+  "datetime": "2025-10-02T08:09:56Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2B_36NXF_20251002_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/tororo_malaria/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

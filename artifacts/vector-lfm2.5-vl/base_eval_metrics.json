@@ -1,0 +1,33 @@
+{
+  "generation": {
+    "confidence_mae": null,
+    "generation_errors": 0,
+    "generations_path": "/mnt/vectoros/runs/vector-lfm25vl-450m-lora-v1-ml3584-bs16x1/base_generations.jsonl",
+    "json_parse_rate": 0.9466666666666667,
+    "json_task_total": 150,
+    "raw_counts": {
+      "json_parse_ok": 142,
+      "json_task_total": 150,
+      "risk_metric_errors": 30
+    },
+    "risk_class_accuracy": 0.0,
+    "risk_schema_minimal_rate": 0.0,
+    "risk_score_mae": null,
+    "risk_tile_total": 30,
+    "safety_violation_rate": 0.0,
+    "sample_count": 300,
+    "source_grounding_mention_rate": 0.6833333333333333
+  },
+  "test": {
+    "batches": 1750,
+    "loss": 2.244778553653577,
+    "perplexity": 9.43832524238141,
+    "tokens": 4213561
+  },
+  "validation": {
+    "batches": 1750,
+    "loss": 2.2434148515895105,
+    "perplexity": 9.425462950927063,
+    "tokens": 4196286
+  }
+}

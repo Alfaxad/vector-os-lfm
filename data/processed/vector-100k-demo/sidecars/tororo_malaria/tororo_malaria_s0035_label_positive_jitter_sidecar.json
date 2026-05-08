@@ -1,0 +1,155 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "tororo_malaria_s0035_label_positive_jitter",
+  "aoi_id": "tororo_malaria",
+  "split": "test",
+  "disease_module": "mosquito_anopheles_malaria",
+  "primary_disease": "malaria",
+  "country": "Uganda",
+  "name": "Tororo, Uganda",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 34.02529870787205,
+    "lat": 0.7648344228765268
+  },
+  "bbox": [
+    34.00281366442001,
+    0.7423513827285585,
+    34.04778375132408,
+    0.7873174630244951
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/tororo_malaria/tororo_malaria_s0035_label_positive_jitter_packet.png",
+    "sha256": "49faadd9dff982bef1b643d7260edb626c8072eca25250dc205d3fb1141b8d65",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/tororo_malaria/tororo_malaria_s0035_label_positive_jitter",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/tororo_malaria/tororo_malaria_s0035_label_positive_jitter/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/tororo_malaria/tororo_malaria_s0035_label_positive_jitter/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/tororo_malaria/tororo_malaria_s0035_label_positive_jitter/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/tororo_malaria/tororo_malaria_s0035_label_positive_jitter/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/tororo_malaria/tororo_malaria_s0035_label_positive_jitter/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/tororo_malaria/tororo_malaria_s0035_label_positive_jitter/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/tororo_uganda/tororo_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/tororo_uganda/tororo_worldpop_2025_constrained_100m.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/tororo_uganda/tororo_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/tororo_uganda/tororo_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/tororo_uganda/tororo_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/tororo_uganda/tororo_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/tororo_uganda/osm_health_facilities_tororo.overpass.json",
+        "major_roads": "data/raw/osm/tororo_uganda/osm_major_roads_tororo.overpass.json",
+        "urban_landuse": "data/raw/osm/tororo_uganda/osm_urban_landuse_tororo.overpass.json",
+        "water_surface": "data/raw/osm/tororo_uganda/osm_water_surface_tororo.overpass.json",
+        "waterways": "data/raw/osm/tororo_uganda/osm_waterways_tororo.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/tororo_uganda/gbif_anopheles_tororo_occurrences.csv"
+        ],
+        "map_disease": [
+          "data/raw/map_malariaatlas/tororo_uganda/map_pf_pr_202406_tororo.geojson",
+          "data/raw/map_malariaatlas/tororo_uganda/map_pv_pr_202406_tororo.geojson"
+        ],
+        "map_vector": [
+          "data/raw/map_malariaatlas/tororo_uganda/map_dominant_vector_surveys_201201_tororo.geojson"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/tororo_malaria_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/tororo_malaria/tororo_malaria_s0035_label_positive_jitter_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 30.772555,
+    "sentinel_datetime": "2025-10-02T08:09:56Z",
+    "sentinel_source": "sentinel-2b",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "label_positive_jitter",
+    "packet_std": 91.7611,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 3.7605,
+        "max": 4.3684,
+        "mean": 4.0288,
+        "median": 4.0113,
+        "p90": 4.2096
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 240328,
+        "min": 0.2381,
+        "max": 20.3052,
+        "mean": 6.5088,
+        "median": 6.717,
+        "p90": 11.22
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 4,
+      "major_roads": 1,
+      "urban_landuse": 2625,
+      "water_surface": 0,
+      "waterways": 0
+    },
+    "label_counts": {
+      "vector_label": 11877,
+      "disease_label": 9,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "weak_label_positive",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "label_positive_jitter",
+    "sampler_version": "stratified-v0.1"
+  }
+}

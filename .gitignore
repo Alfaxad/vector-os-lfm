@@ -1,0 +1,25 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+db.sqlite3
+staticfiles/
+logs/
+
+frontend/node_modules/
+frontend/dist/
+
+.cache/
+*.log
+
+# Keep the compact runtime dataset in git, but do not commit full local mirrors.
+data/processed/*
+!data/processed/vector-100k-demo/
+!data/processed/vector-100k-demo/**
+data/raw/
+data/hf/
+
+# Large model/download caches should stay outside the repo.
+models/
+checkpoints/

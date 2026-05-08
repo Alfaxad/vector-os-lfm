@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2c",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    35.12812806635863,
+    -14.36537062045123,
+    35.17454080508378,
+    -14.320404540155295
+  ],
+  "cloud_cover": 88.853961,
+  "datetime": "2025-11-23T08:04:02Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2C_36LYK_20251123_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/mangochi_schistosomiasis/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

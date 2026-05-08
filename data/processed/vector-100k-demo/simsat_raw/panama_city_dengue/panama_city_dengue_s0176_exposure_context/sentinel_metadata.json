@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2c",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    -79.53294435884007,
+    8.989713829918195,
+    -79.48741623463135,
+    9.03467991021413
+  ],
+  "cloud_cover": 18.544856,
+  "datetime": "2025-12-24T15:51:03Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2C_17PPK_20251224_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/panama_city_dengue/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

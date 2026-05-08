@@ -1,0 +1,4017 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "kisumu_malaria_s0257_exposure_context",
+    "aoi_id": "kisumu_malaria",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {
+      "urban": 111,
+      "water": 63
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7583976,
+          -0.1145552
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1158793696,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7567065,
+          -0.1134373
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "St. Johns Manor by Lesavanna",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps St. Johns Manor by Lesavanna as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1132423056,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7555125,
+          -0.110987
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Jumbo apartments",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Jumbo apartments as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1192181004,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7541899,
+          -0.1015259
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "commercial",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps commercial as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1132415942,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7527542,
+          -0.1125332
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1158733781,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7551115,
+          -0.108741
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1162493441,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7536638,
+          -0.1100074
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1162493442,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7551582,
+          -0.10841
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "United Court",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps United Court as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1192172994,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7528221,
+          -0.1067884
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kisumu Hotel",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kisumu Hotel as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1132417371,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7534572,
+          -0.105294
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1187840250,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7568601,
+          -0.10214
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1177662178,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7592305,
+          -0.102108
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "New KCC Kisumu sales depot",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps New KCC Kisumu sales depot as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1192071459,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7577951,
+          -0.1012612
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1187840249,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7575798,
+          -0.0964522
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687713,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7586386,
+          -0.0964026
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687714,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7592174,
+          -0.0962926
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687715,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7597444,
+          -0.0955054
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687717,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.758803,
+          -0.095622
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687718,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7584623,
+          -0.0954799
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687719,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7589759,
+          -0.0959104
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687720,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7584315,
+          -0.0958862
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687721,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7582249,
+          -0.0959345
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687722,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7583188,
+          -0.0961973
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687723,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7581015,
+          -0.0969779
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687724,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7571621,
+          -0.0969779
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687725,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7597346,
+          -0.0923483
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Mosque Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Mosque Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 262026869,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7569261,
+          -0.0895504
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "industrial",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps industrial as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 326414571,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7575195,
+          -0.0951543
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Uhuru Business Park Market Complex",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Uhuru Business Park Market Complex as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 949207918,
+          "amenity": "marketplace",
+          "landuse": "retail"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7610719,
+          -0.088887
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "okore",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps okore as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1041407487,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7598634,
+          -0.0871031
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kisumu Cotton Mills",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kisumu Cotton Mills as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115656238,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7558032,
+          -0.0953552
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "commercial",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps commercial as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1133800934,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7604315,
+          -0.0961357
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Posta Flats",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Posta Flats as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1157190034,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7591611,
+          -0.094875
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1416687716,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7655302,
+          -0.1005846
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "residential",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps residential as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 262027660,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7646384,
+          -0.1052188
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "residential",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps residential as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 322372475,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7710948,
+          -0.1006054
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "residential",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps residential as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115466763,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7696496,
+          -0.1019382
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Makasembo Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Makasembo Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1188269729,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.761684,
+          -0.1043392
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Mayfair Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Mayfair Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115466761,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7622463,
+          -0.1053218
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Argwings Kodhek Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Argwings Kodhek Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115466762,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.770396,
+          -0.106916
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "mega city",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps mega city as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1137794886,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7720298,
+          -0.1074526
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1154747811,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7747054,
+          -0.10276
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1158212267,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7615718,
+          -0.1009257
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Maendeleo Market",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Maendeleo Market as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1061203421,
+          "landuse": "retail"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7630235,
+          -0.0994806
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Jumuia Hotel Kisumu",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Jumuia Hotel Kisumu as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1132442158,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7622171,
+          -0.0986009
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "commercial",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps commercial as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1137863173,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7623545,
+          -0.1001171
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160842044,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7683195,
+          -0.097029
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "residential",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps residential as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115488376,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7682967,
+          -0.0968206
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1162496308,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7632703,
+          -0.087384
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "USAID Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps USAID Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1041407488,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7641546,
+          -0.0887922
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Mountainview",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Mountainview as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1041407492,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7734897,
+          -0.0995542
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "residential",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps residential as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115469313,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7742565,
+          -0.0945224
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "residential",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps residential as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115485254,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7622216,
+          -0.0957827
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Patel Flats",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Patel Flats as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115495795,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7628569,
+          -0.0947883
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Sunrise Court",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Sunrise Court as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1151533377,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7659044,
+          -0.0949415
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160842045,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7708842,
+          -0.0888976
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160842048,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7739962,
+          -0.0880315
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1176217190,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7668539,
+          -0.0953123
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1190247775,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7668424,
+          -0.0988146
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Lumumba affordable housing project",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Lumumba affordable housing project as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1487262401,
+          "landuse": "construction"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7622288,
+          -0.0907957
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Dr. Robert Ouko Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Dr. Robert Ouko Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1041407490,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7631813,
+          -0.0933679
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kibuye Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kibuye Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115497208,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7642287,
+          -0.0904552
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Robert Ouko Intermediate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Robert Ouko Intermediate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1116248606,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7637835,
+          -0.0929863
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Wayside Shopping Centre",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Wayside Shopping Centre as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1135159944,
+          "landuse": "retail"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7659266,
+          -0.0918952
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "commercial",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps commercial as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1135716592,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7649761,
+          -0.0927781
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Sifa Gardens",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Sifa Gardens as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147367839,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.760832,
+          -0.0942399
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kimute Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kimute Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1157190035,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7645976,
+          -0.0924362
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160837237,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.77069,
+          -0.092403
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Civil servants Shauri Moyo",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Civil servants Shauri Moyo as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1118169581,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7843243,
+          -0.0951225
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Koyango market",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Koyango market as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1135157112,
+          "amenity": "marketplace",
+          "landuse": "retail"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7746743,
+          -0.0901235
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "residential",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps residential as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1118180539,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7815555,
+          -0.0902583
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kosawo Mixed Secondary School",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kosawo Mixed Secondary School as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1228839262,
+          "amenity": "school",
+          "landuse": "construction"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7668469,
+          -0.0789441
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "residential",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps residential as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1392961935,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7618347,
+          -0.0834422
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "East African Breweries Limited",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps East African Breweries Limited as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 871184170,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7557653,
+          -0.0789618
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Victoria Industrial Park",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Victoria Industrial Park as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1115693427,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7582845,
+          -0.0809342
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Mombasa Maize Millers Ltd.",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Mombasa Maize Millers Ltd. as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1156048773,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7627284,
+          -0.0861258
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "sunrise estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps sunrise estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1117441221,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7660705,
+          -0.0878702
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160837240,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7706706,
+          -0.0860989
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160837241,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.768686,
+          -0.0857214
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160837242,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7725593,
+          -0.0870875
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160842049,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7745209,
+          -0.0830489
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "retail",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps retail as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1133800938,
+          "landuse": "retail"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7739263,
+          -0.0861614
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1152891721,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7673056,
+          -0.0873631
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160837238,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7667879,
+          -0.087368
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160837239,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7731113,
+          -0.0861879
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1160842050,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7737265,
+          -0.0841737
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1176217188,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7740033,
+          -0.0868945
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1176217191,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7715386,
+          -0.0787013
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "residential",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps residential as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1392961934,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7748082,
+          -0.0841201
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "KONDELE",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps KONDELE as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 489620811,
+          "landuse": "commercial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7748148,
+          -0.0868957
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1152891722,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7855233,
+          -0.083659
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Gudka Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Gudka Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1116347059,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7780234,
+          -0.0753846
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Lake Basin Poultry Farm",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Lake Basin Poultry Farm as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1126197118,
+          "landuse": "farmyard"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7817125,
+          -0.0748631
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Lolwe shopping center",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Lolwe shopping center as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1133800940,
+          "landuse": "retail"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7791366,
+          -0.0750078
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1152896694,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.780451,
+          -0.0751339
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1152896695,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7850337,
+          -0.0805639
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Crimson Arcade",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Crimson Arcade as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1133800939,
+          "landuse": "retail"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7805105,
+          -0.0811872
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Jovemart center",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Jovemart center as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1176915296,
+          "landuse": "retail"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7729912,
+          -0.0738253
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "NHC Kanyakwar Phase 1",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps NHC Kanyakwar Phase 1 as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1117456697,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7747142,
+          -0.0734971
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "farmland",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps farmland as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1181142168,
+          "landuse": "farmland"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.776251,
+          -0.0724958
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "farmland",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps farmland as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1181142169,
+          "landuse": "farmland"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7847065,
+          -0.0728785
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kenya Reinsurance Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kenya Reinsurance Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1196015744,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7938018,
+          -0.0758347
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Abbysinia Iron & Steel",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Abbysinia Iron & Steel as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 871200940,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7908837,
+          -0.0760818
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Translakes Estate",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Translakes Estate as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1041407493,
+          "landuse": "residential"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7919433,
+          -0.0761071
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Rural Electrification & Renewable Energy Commision",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Rural Electrification & Renewable Energy Commision as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1127447903,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7886206,
+          -0.0788378
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1183976268,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7966608,
+          -0.0746662
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "BOC Gases Kisumu",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps BOC Gases Kisumu as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1126686862,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7575937,
+          -0.1027167
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Equator Bottlers Kisumu Depot",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Equator Bottlers Kisumu Depot as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "relation",
+          "osm_id": 6078127,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7596042,
+          -0.0983492
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "grass",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps grass as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "relation",
+          "osm_id": 19380806,
+          "landuse": "grass"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7645275,
+          -0.0986982
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Anderson Park",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Anderson Park as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "relation",
+          "osm_id": 19340752,
+          "landuse": "construction"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7975689,
+          -0.0780928
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kenya Bureau of Standards",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kenya Bureau of Standards as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "relation",
+          "osm_id": 16447399,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7964279,
+          -0.0761059
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Kenya Industrial Research & Development Institute",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Kenya Industrial Research & Development Institute as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "relation",
+          "osm_id": 16447401,
+          "landuse": "industrial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7538176,
+          -0.1036781
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 319945931,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7527862,
+          -0.083566
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421009,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7547403,
+          -0.0843823
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524418389,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7550345,
+          -0.0843137
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420988,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7549744,
+          -0.0840112
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420989,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7546792,
+          -0.0840809
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420990,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7545879,
+          -0.0836704
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420991,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7548832,
+          -0.0836103
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420992,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7541469,
+          -0.0837418
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420993,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.754283,
+          -0.0837136
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420994,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7541774,
+          -0.0838744
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420995,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7543047,
+          -0.0838456
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420996,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7542014,
+          -0.0840017
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420997,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7543359,
+          -0.0839752
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420998,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.754732,
+          -0.0846786
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524420999,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7548568,
+          -0.0846498
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421000,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7550296,
+          -0.0846162
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421001,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7550561,
+          -0.0847483
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421002,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7548904,
+          -0.084777
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421003,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.754756,
+          -0.0848106
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421004,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7541774,
+          -0.0842344
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421005,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7543094,
+          -0.0842057
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421006,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7542158,
+          -0.084393
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421007,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7543479,
+          -0.0843665
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421008,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.754007,
+          -0.0834097
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421012,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7544365,
+          -0.0842557
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421013,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7549346,
+          -0.0849663
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421014,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7550151,
+          -0.0849709
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421015,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7596532,
+          -0.0843313
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 562310854,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.753546,
+          -0.0838792
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421010,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7536685,
+          -0.083584
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421011,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7856625,
+          -0.1131551
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784326007,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7828397,
+          -0.1022311
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784325978,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7863581,
+          -0.1044789
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784325982,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7841027,
+          -0.1048293
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784325983,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7863121,
+          -0.1080093
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784325992,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7940113,
+          -0.0951672
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784325967,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7909962,
+          -0.0912592
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784325962,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7910736,
+          -0.0917885
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784325963,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.795056,
+          -0.0924266
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784325964,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7625183,
+          -0.0801583
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Ndoto Sewage",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Ndoto Sewage as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 8824217454
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7768063,
+          -0.1080817
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Kibos River",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Kibos River as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 84960623,
+          "waterway": "river"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7828929,
+          -0.0955214
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Auji",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Auji as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 239556292,
+          "waterway": "canal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.773595,
+          -0.1146482
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "canal",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps canal as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1149919636,
+          "waterway": "canal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7754373,
+          -0.1098262
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "canal",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps canal as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 514240166,
+          "waterway": "canal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7754963,
+          -0.1096924
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "canal",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps canal as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 514240167,
+          "waterway": "canal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7752826,
+          -0.1102945
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "canal",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps canal as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 514240168,
+          "waterway": "canal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7753809,
+          -0.110006
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "canal",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps canal as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 514240169,
+          "waterway": "canal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7751636,
+          -0.1106471
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "canal",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps canal as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 514240170,
+          "waterway": "canal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7743674,
+          -0.1127021
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Auji",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Auji as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1149919635,
+          "waterway": "canal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7547804,
+          -0.0821275
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "stream",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps stream as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147853994,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7538788,
+          -0.0840951
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Kisat WWTP",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Kisat WWTP as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524421016
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7526769,
+          -0.0826739
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Kisat",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Kisat as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147853993,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7569866,
+          -0.0811974
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Kisat",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Kisat as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147853995,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7612136,
+          -0.0796376
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "stream",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps stream as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147853998,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7592154,
+          -0.0802295
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "stream",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps stream as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147853996,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7591782,
+          -0.0802896
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "stream",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps stream as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147853997,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7706295,
+          -0.0760595
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "stream",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps stream as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147534593,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7632413,
+          -0.0790839
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "stream",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps stream as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147853999,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7646985,
+          -0.0786749
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "stream",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps stream as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147854000,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7661516,
+          -0.0782853
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "stream",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps stream as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1147854001,
+          "waterway": "stream"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.788112,
+          -0.0757609
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "canal",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps canal as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 674949187,
+          "waterway": "canal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7870614,
+          -0.0813601
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "canal",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps canal as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 674949186,
+          "waterway": "canal"
+        }
+      }
+    }
+  ]
+}

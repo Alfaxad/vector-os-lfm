@@ -1,0 +1,984 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "iquitos_dengue_s0334_random_ecological",
+    "aoi_id": "iquitos_dengue",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {
+      "schools_waterpoints": 2,
+      "urban": 42
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1248941,
+          -3.663319
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "schools_waterpoints",
+        "source": "OpenStreetMap",
+        "name": "Institución educativa inicial No. 535",
+        "title": "Community exposure context",
+        "summary": "OSM maps Institución educativa inicial No. 535 as school, waterpoint, or community exposure context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 5562879209,
+          "amenity": "kindergarten"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1235839,
+          -3.6648749
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "schools_waterpoints",
+        "source": "OpenStreetMap",
+        "name": "Institución Educativa No. 60755",
+        "title": "Community exposure context",
+        "summary": "OSM maps Institución Educativa No. 60755 as school, waterpoint, or community exposure context inside this selected chip.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 5562908478,
+          "amenity": "school"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1125044,
+          -3.6681975
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 521619542
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1125822,
+          -3.6682713
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 521619543
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1120521,
+          -3.6675956
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 521619544
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1120633,
+          -3.6676528
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 521619545
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1281659,
+          -3.6686617
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 521638640
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1277198,
+          -3.6669779
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 521638641
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1257557,
+          -3.6641051
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191943
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1269013,
+          -3.6641098
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191945
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1261703,
+          -3.6637192
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191955
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1262013,
+          -3.6636565
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191957
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1260118,
+          -3.6635702
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191958
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1259529,
+          -3.6635257
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191960
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1257395,
+          -3.6637189
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191962
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1256933,
+          -3.6636623
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191963
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1255468,
+          -3.6637537
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191965
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1253971,
+          -3.6639797
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191967
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1253096,
+          -3.6638583
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191968
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1250098,
+          -3.6634368
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191970
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1248762,
+          -3.6632948
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524191972
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.123508,
+          -3.6648819
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524205431
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.108942,
+          -3.6645253
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524205485
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1099238,
+          -3.6643118
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524205486
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1099102,
+          -3.6642394
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524205488
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0851417,
+          -3.6640003
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524205491
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0852354,
+          -3.6639639
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524205492
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1274722,
+          -3.6668492
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254613
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1275252,
+          -3.666814
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254614
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1273148,
+          -3.666385
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254615
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1269003,
+          -3.6663679
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254616
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1270524,
+          -3.666078
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254617
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1267061,
+          -3.6657337
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254618
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1264875,
+          -3.6652964
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254619
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1263832,
+          -3.6646937
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254620
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1264324,
+          -3.6646616
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254621
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1261622,
+          -3.6644329
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254622
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1258844,
+          -3.6642372
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254623
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1259328,
+          -3.6641936
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524254624
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1276444,
+          -3.6680396
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524296129
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1022798,
+          -3.6732678
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524299142
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1263929,
+          -3.6800764
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524299144
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1264471,
+          -3.6799193
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524299145
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.126535,
+          -3.6799569
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "urban",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps urban as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 524299146
+        }
+      }
+    }
+  ]
+}

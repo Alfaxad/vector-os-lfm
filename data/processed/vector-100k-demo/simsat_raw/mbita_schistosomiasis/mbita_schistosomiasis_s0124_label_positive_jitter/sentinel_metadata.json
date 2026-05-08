@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2a",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    34.19034595239983,
+    -0.44268773487381907,
+    34.235313242015955,
+    -0.39772165457788256
+  ],
+  "cloud_cover": 1.40536,
+  "datetime": "2025-09-09T08:10:26Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2A_36MXE_20250909_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/mbita_schistosomiasis/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

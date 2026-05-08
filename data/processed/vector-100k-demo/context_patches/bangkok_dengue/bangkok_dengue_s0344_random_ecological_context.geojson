@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "bangkok_dengue_s0344_random_ecological",
+    "aoi_id": "bangkok_dengue",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {}
+  },
+  "features": []
+}

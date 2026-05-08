@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "mbita_schistosomiasis_s0314_random_ecological",
+    "aoi_id": "mbita_schistosomiasis",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {}
+  },
+  "features": []
+}

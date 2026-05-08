@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2b",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    28.243912545127294,
+    -15.455635998002819,
+    28.290560683371027,
+    -15.410669917706883
+  ],
+  "cloud_cover": 2e-05,
+  "datetime": "2025-09-25T08:24:37Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2B_35LPC_20250925_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/kafue_schistosomiasis/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

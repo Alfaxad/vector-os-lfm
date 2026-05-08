@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "mwanza_schistosomiasis_s0313_random_ecological",
+    "aoi_id": "mwanza_schistosomiasis",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {
+      "water": 2
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2247336,
+          -1.2659134
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Lake Victoria",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Lake Victoria as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "relation",
+          "osm_id": 2606941,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.826795849999996,
+          -2.6094359000000003
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "flowline",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps flowline as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 1488076895,
+          "waterway": "flowline"
+        }
+      }
+    }
+  ]
+}

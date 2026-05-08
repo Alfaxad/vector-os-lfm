@@ -1,0 +1,145 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "mwanza_schistosomiasis_s0313_random_ecological",
+  "aoi_id": "mwanza_schistosomiasis",
+  "split": "train",
+  "disease_module": "schistosomiasis",
+  "primary_disease": "schistosomiasis",
+  "country": "Tanzania",
+  "name": "Mwanza city/lakeshore, Tanzania",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 32.84894009731911,
+    "lat": -2.4250916444142576
+  },
+  "bbox": [
+    32.82643690321172,
+    -2.447574684562226,
+    32.871443291426495,
+    -2.4026086042662893
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/mwanza_schistosomiasis/mwanza_schistosomiasis_s0313_random_ecological_packet.png",
+    "sha256": "264d440462de82a50da762d49759fcf16193dec9ccc31807e9e7b86209a908c9",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/mwanza_schistosomiasis/mwanza_schistosomiasis_s0313_random_ecological",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/mwanza_schistosomiasis/mwanza_schistosomiasis_s0313_random_ecological/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/mwanza_schistosomiasis/mwanza_schistosomiasis_s0313_random_ecological/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/mwanza_schistosomiasis/mwanza_schistosomiasis_s0313_random_ecological/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/mwanza_schistosomiasis/mwanza_schistosomiasis_s0313_random_ecological/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/mwanza_schistosomiasis/mwanza_schistosomiasis_s0313_random_ecological/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/mwanza_schistosomiasis/mwanza_schistosomiasis_s0313_random_ecological/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/mwanza_tanzania/mwanza_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/mwanza_tanzania/mwanza_worldpop_2025_constrained_100m.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/mwanza_tanzania/mwanza_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/mwanza_tanzania/mwanza_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/mwanza_tanzania/mwanza_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/mwanza_tanzania/mwanza_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/mwanza_tanzania/osm_health_facilities_mwanza.overpass.json",
+        "major_roads": "data/raw/osm/mwanza_tanzania/osm_major_roads_mwanza.overpass.json",
+        "schools_waterpoints": "data/raw/osm/mwanza_tanzania/osm_schools_waterpoints_mwanza.overpass.json",
+        "urban_landuse": "data/raw/osm/mwanza_tanzania/osm_urban_landuse_mwanza.overpass.json",
+        "water_surface": "data/raw/osm/mwanza_tanzania/osm_water_surface_mwanza.overpass.json",
+        "waterways": "data/raw/osm/mwanza_tanzania/osm_waterways_mwanza.overpass.json"
+      },
+      "labels": {
+        "gbif_intermediate_host": [
+          "data/raw/map_gbif/mwanza_tanzania/gbif_freshwater_snails_mwanza_occurrences.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/mwanza_schistosomiasis_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/mwanza_schistosomiasis/mwanza_schistosomiasis_s0313_random_ecological_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 4.524451,
+    "sentinel_datetime": "2025-09-10T08:20:59Z",
+    "sentinel_source": "sentinel-2c",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "random_ecological",
+    "packet_std": 32.353,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p90": 0.0
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 0,
+      "major_roads": 0,
+      "schools_waterpoints": 0,
+      "urban_landuse": 0,
+      "water_surface": 0,
+      "waterways": 0
+    },
+    "label_counts": {
+      "vector_label": 0,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "hard_or_ecological_negative",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "random_ecological",
+    "sampler_version": "stratified-v0.1"
+  }
+}

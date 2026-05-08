@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "kafue_schistosomiasis_s0104_hard_negative_water_urban",
+    "aoi_id": "kafue_schistosomiasis",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {}
+  },
+  "features": []
+}

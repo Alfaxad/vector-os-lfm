@@ -1,0 +1,145 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "panama_city_dengue_s0107_hard_negative_water_urban",
+  "aoi_id": "panama_city_dengue",
+  "split": "test",
+  "disease_module": "dengue_aedes",
+  "primary_disease": "dengue",
+  "country": "Panama",
+  "name": "Panama City, Panama",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": -79.42511918709938,
+    "lat": 8.957825185140985
+  },
+  "bbox": [
+    -79.44787983378492,
+    8.935342144993017,
+    -79.40235854041384,
+    8.980308225288953
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/panama_city_dengue/panama_city_dengue_s0107_hard_negative_water_urban_packet.png",
+    "sha256": "3bf6be205d01c8728de9203f44c3df518e6c6fd20945111385ab9194f26863cb",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/panama_city_dengue/panama_city_dengue_s0107_hard_negative_water_urban",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/panama_city_dengue/panama_city_dengue_s0107_hard_negative_water_urban/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/panama_city_dengue/panama_city_dengue_s0107_hard_negative_water_urban/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/panama_city_dengue/panama_city_dengue_s0107_hard_negative_water_urban/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/panama_city_dengue/panama_city_dengue_s0107_hard_negative_water_urban/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/panama_city_dengue/panama_city_dengue_s0107_hard_negative_water_urban/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/panama_city_dengue/panama_city_dengue_s0107_hard_negative_water_urban/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/panama_city_panama/panama_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/panama_city_panama/panama_worldpop_2020_100m_arcgis.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/panama_city_panama/panama_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/panama_city_panama/panama_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/panama_city_panama/panama_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/panama_city_panama/panama_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/panama_city_panama/osm_health_facilities_panama.overpass.json",
+        "major_roads": "data/raw/osm/panama_city_panama/osm_major_roads_panama.overpass.json",
+        "schools_waterpoints": "data/raw/osm/panama_city_panama/osm_schools_waterpoints_panama.overpass.json",
+        "urban_landuse": "data/raw/osm/panama_city_panama/osm_urban_landuse_panama.overpass.json",
+        "water_surface": "data/raw/osm/panama_city_panama/osm_water_surface_panama.overpass.json",
+        "waterways": "data/raw/osm/panama_city_panama/osm_waterways_panama.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/panama_city_panama/gbif_aedes_panama_occurrences.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/panama_city_dengue_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/panama_city_dengue/panama_city_dengue_s0107_hard_negative_water_urban_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 18.544856,
+    "sentinel_datetime": "2025-12-24T15:51:03Z",
+    "sentinel_source": "sentinel-2c",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "hard_negative_water_urban",
+    "packet_std": 30.4951,
+    "repair_attempts": 1
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": -9999.0,
+        "max": -4860.0913,
+        "mean": -9195.7441,
+        "median": -9754.0234,
+        "p90": -7482.1743
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 0,
+      "major_roads": 0,
+      "schools_waterpoints": 0,
+      "urban_landuse": 0,
+      "water_surface": 0,
+      "waterways": 0
+    },
+    "label_counts": {
+      "vector_label": 0,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "hard_or_ecological_negative",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "hard_negative_water_urban",
+    "sampler_version": "stratified-v0.1"
+  }
+}

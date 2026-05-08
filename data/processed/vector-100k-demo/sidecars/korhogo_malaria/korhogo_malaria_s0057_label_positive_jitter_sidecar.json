@@ -1,0 +1,157 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "korhogo_malaria_s0057_label_positive_jitter",
+  "aoi_id": "korhogo_malaria",
+  "split": "test",
+  "disease_module": "mosquito_anopheles_malaria",
+  "primary_disease": "malaria",
+  "country": "Cote d'Ivoire",
+  "name": "Korhogo, Cote d'Ivoire",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": -5.579674705549474,
+    "lat": 9.268302774783697
+  },
+  "bbox": [
+    -5.602455145064157,
+    9.24581973463573,
+    -5.55689426603479,
+    9.290785814931665
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/korhogo_malaria/korhogo_malaria_s0057_label_positive_jitter_packet.png",
+    "sha256": "2ed11413f3ff98957d06b04e623d1dbf7f77b730eb1b09889aec77e66722dd78",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/korhogo_malaria/korhogo_malaria_s0057_label_positive_jitter",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/korhogo_malaria/korhogo_malaria_s0057_label_positive_jitter/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/korhogo_malaria/korhogo_malaria_s0057_label_positive_jitter/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/korhogo_malaria/korhogo_malaria_s0057_label_positive_jitter/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/korhogo_malaria/korhogo_malaria_s0057_label_positive_jitter/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/korhogo_malaria/korhogo_malaria_s0057_label_positive_jitter/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/korhogo_malaria/korhogo_malaria_s0057_label_positive_jitter/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/korhogo_cote_divoire/korhogo_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/korhogo_cote_divoire/korhogo_worldpop_2020_100m_arcgis.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/korhogo_cote_divoire/korhogo_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/korhogo_cote_divoire/korhogo_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/korhogo_cote_divoire/korhogo_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/korhogo_cote_divoire/korhogo_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/korhogo_cote_divoire/osm_health_facilities_korhogo.overpass.json",
+        "major_roads": "data/raw/osm/korhogo_cote_divoire/osm_major_roads_korhogo.overpass.json",
+        "schools_waterpoints": "data/raw/osm/korhogo_cote_divoire/osm_schools_waterpoints_korhogo.overpass.json",
+        "urban_landuse": "data/raw/osm/korhogo_cote_divoire/osm_urban_landuse_korhogo.overpass.json",
+        "water_surface": "data/raw/osm/korhogo_cote_divoire/osm_water_surface_korhogo.overpass.json",
+        "waterways": "data/raw/osm/korhogo_cote_divoire/osm_waterways_korhogo.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/korhogo_cote_divoire/gbif_anopheles_korhogo_occurrences.csv"
+        ],
+        "map_disease": [
+          "data/raw/map_malariaatlas/korhogo_cote_divoire/map_pf_pr_202406_korhogo.geojson",
+          "data/raw/map_malariaatlas/korhogo_cote_divoire/map_pv_pr_202406_korhogo.geojson"
+        ],
+        "map_vector": [
+          "data/raw/map_malariaatlas/korhogo_cote_divoire/map_dominant_vector_surveys_201201_korhogo.geojson"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/korhogo_malaria_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/korhogo_malaria/korhogo_malaria_s0057_label_positive_jitter_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 0,
+    "sentinel_datetime": "2025-12-22T10:58:35Z",
+    "sentinel_source": "sentinel-2b",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "label_positive_jitter",
+    "packet_std": 60.3887,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p90": 0.0
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 239495,
+        "min": 0.274,
+        "max": 4.7765,
+        "mean": 1.0606,
+        "median": 0.5269,
+        "p90": 2.5543
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 0,
+      "major_roads": 71,
+      "schools_waterpoints": 0,
+      "urban_landuse": 65,
+      "water_surface": 1,
+      "waterways": 4
+    },
+    "label_counts": {
+      "vector_label": 2783,
+      "disease_label": 1,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "weak_label_positive",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "label_positive_jitter",
+    "sampler_version": "stratified-v0.1"
+  }
+}

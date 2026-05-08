@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "farafenni_malaria_s0192_random_ecological",
+    "aoi_id": "farafenni_malaria",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {
+      "water": 2
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5818748,
+          13.4755962
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "river",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps river as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 575709582,
+          "waterway": "river"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5806916,
+          13.4757992
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "river",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps river as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 575709583,
+          "waterway": "river"
+        }
+      }
+    }
+  ]
+}

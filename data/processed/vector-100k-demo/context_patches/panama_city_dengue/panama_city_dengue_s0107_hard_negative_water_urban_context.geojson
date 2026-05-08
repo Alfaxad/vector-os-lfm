@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "panama_city_dengue_s0107_hard_negative_water_urban",
+    "aoi_id": "panama_city_dengue",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {}
+  },
+  "features": []
+}

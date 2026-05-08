@@ -1,0 +1,146 @@
+{
+  "schema_version": "vectoros-risk-tile-v0.2",
+  "risk_tile_id": "kafue_schistosomiasis_s0104_hard_negative_water_urban",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "disease_module": "schistosomiasis",
+  "disease_targets": [
+    "schistosomiasis",
+    "freshwater snail and water-contact habitat"
+  ],
+  "aoi": {
+    "aoi_id": "kafue_schistosomiasis",
+    "admin0": "Zambia",
+    "name": "Kafue Flats, Zambia",
+    "bbox": [
+      28.300955680464824,
+      -15.939246417135706,
+      28.34771443947018,
+      -15.89428033683977
+    ],
+    "centroid": {
+      "lon": 28.324335059967503,
+      "lat": -15.916763376987738
+    }
+  },
+  "time_window": {
+    "start_date": "2025-12-31",
+    "end_date": "2025-12-31",
+    "lag_days_used": [
+      7,
+      14,
+      21
+    ]
+  },
+  "risk": {
+    "score": 0,
+    "class": "low",
+    "confidence": 0.34,
+    "trend_vs_previous_period": "unknown",
+    "uncertainty_interval": [
+      0,
+      18
+    ],
+    "calibration_model_version": "weak_rule_seed_v0.2"
+  },
+  "hazards": [
+    {
+      "hazard_id": "kafue_schistosomiasis_s0104_hard_negative_water_urban_hazard_001",
+      "type": "snail_water_contact_habitat_proxy",
+      "geometry_ref": "chip_bbox",
+      "bbox": [
+        28.300955680464824,
+        -15.939246417135706,
+        28.34771443947018,
+        -15.89428033683977
+      ],
+      "evidence_layers": [
+        "freshwater snail labels",
+        "surface-water persistence",
+        "water-contact exposure",
+        "schools/waterpoints where available"
+      ],
+      "confidence": 0.34
+    }
+  ],
+  "exposure": {
+    "population_signal_p90": 0.3375,
+    "health_facilities_in_chip": 0,
+    "schools_or_waterpoints_in_chip": 0,
+    "waterway_features_in_chip": 0,
+    "urban_or_building_features_in_chip": 0
+  },
+  "signals": {
+    "visual_packet": {
+      "source": "VectorOS SimSat Sentinel-2 + Mapbox + open-layer evidence packet",
+      "panel_order": [
+        "top_left: SimSat Sentinel-2 true-color RGB",
+        "top_right: SimSat Sentinel-2 false color NIR-red-green",
+        "bottom_left: Mapbox satellite context",
+        "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+      ],
+      "quality": "real_imagery_plus_derived_environmental_context"
+    },
+    "climate": {
+      "rainfall_chirps_mean_mm": 0.0,
+      "rainfall_chirps_p90_mm": 0.0
+    },
+    "hydrology": {
+      "jrc_occurrence_mean_percent": 0.0,
+      "jrc_seasonality_mean_months": 0.0
+    },
+    "health_surveillance": {
+      "case_signal_available": false,
+      "source": "GBIF intermediate-host occurrence",
+      "spatial_precision": "tile_or_aoi_weak"
+    },
+    "entomology_or_host": {
+      "observation_available": false,
+      "source": "GBIF freshwater snail intermediate-host occurrence",
+      "count_in_chip": 0
+    }
+  },
+  "rationale": [
+    {
+      "claim": "Weak label signal: GBIF freshwater snail intermediate-host occurrence count is 0.",
+      "evidence_layer": "label_count_features",
+      "evidence_ref": "numeric_features.label_counts",
+      "confidence": 0.0
+    },
+    {
+      "claim": "Environmental context includes JRC occurrence mean 0.0 percent, rainfall signal 0.0, and OSM water-context signal 0.0.",
+      "evidence_layer": "JRC_GSW_CHIRPS_OSM",
+      "evidence_ref": "numeric_features.raster_stats_and_osm_counts",
+      "confidence": 0.58
+    },
+    {
+      "claim": "Exposure context includes population signal 0.03, urban signal 0.0, health-facility signal 0.0, and school/waterpoint signal 0.0.",
+      "evidence_layer": "WorldPop_OSM",
+      "evidence_ref": "numeric_features.population_and_osm_counts",
+      "confidence": 0.55
+    }
+  ],
+  "recommended_actions": [
+    {
+      "action_type": "water_contact_site_review",
+      "description": "Review water-contact/snail survey priority near exposed sites; intermediate-host label count 0, weak risk class low.",
+      "priority": "low",
+      "requires_human_approval": true
+    }
+  ],
+  "limitations": [
+    "This is a weak-supervision training target, not a calibrated disease forecast.",
+    "GBIF and MAP labels are presence/survey-biased and do not prove absence where no records are present.",
+    "This scalable packet includes SimSat Sentinel-2 imagery, Mapbox satellite imagery, and open environmental/exposure layers for visual grounding."
+  ],
+  "audit": {
+    "model_versions": {
+      "target_generator": "scripts/build_vector_100k_dataset.py"
+    },
+    "data_versions": {
+      "source": "SimSat Sentinel-2, Mapbox satellite imagery, data/raw AOI crops, and normalized feature extracts"
+    },
+    "prompt_version": "vectoros-100k-simsat-sft-v0.1",
+    "human_review_status": "unreviewed"
+  }
+}

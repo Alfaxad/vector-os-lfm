@@ -1,0 +1,152 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "siaya_malaria_s0154_hard_negative_water_urban",
+  "aoi_id": "siaya_malaria",
+  "split": "train",
+  "disease_module": "mosquito_anopheles_malaria",
+  "primary_disease": "malaria",
+  "country": "Kenya",
+  "name": "Siaya County, Kenya",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 34.52695893356034,
+    "lat": -0.27849509990114774
+  },
+  "bbox": [
+    34.50447562781781,
+    -0.300978140049116,
+    34.54944223930286,
+    -0.2560120597531795
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/siaya_malaria/siaya_malaria_s0154_hard_negative_water_urban_packet.png",
+    "sha256": "7e0a1fa96f145433b60c45efcd24c4c74f7dd4fc57723980ac8f0e1553a1028a",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/siaya_malaria/siaya_malaria_s0154_hard_negative_water_urban",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/siaya_malaria/siaya_malaria_s0154_hard_negative_water_urban/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/siaya_malaria/siaya_malaria_s0154_hard_negative_water_urban/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/siaya_malaria/siaya_malaria_s0154_hard_negative_water_urban/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/siaya_malaria/siaya_malaria_s0154_hard_negative_water_urban/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/siaya_malaria/siaya_malaria_s0154_hard_negative_water_urban/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/siaya_malaria/siaya_malaria_s0154_hard_negative_water_urban/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/siaya_kenya/siaya_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/siaya_kenya/siaya_worldpop_2025_constrained_100m.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/siaya_kenya/siaya_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/siaya_kenya/siaya_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/siaya_kenya/siaya_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/siaya_kenya/siaya_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/siaya_kenya/osm_health_facilities_siaya.overpass.json",
+        "major_roads": "data/raw/osm/siaya_kenya/osm_major_roads_siaya.overpass.json",
+        "schools_waterpoints": "data/raw/osm/siaya_kenya/osm_schools_waterpoints_siaya.overpass.json",
+        "urban_landuse": "data/raw/osm/siaya_kenya/osm_urban_landuse_siaya.overpass.json",
+        "water_surface": "data/raw/osm/siaya_kenya/osm_water_surface_siaya.overpass.json",
+        "waterways": "data/raw/osm/siaya_kenya/osm_waterways_siaya.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/siaya_kenya/gbif_anopheles_siaya_occurrences.csv"
+        ],
+        "map_disease": [
+          "data/raw/map_malariaatlas/siaya_kenya/map_pf_pr_202406_siaya.geojson",
+          "data/raw/map_malariaatlas/siaya_kenya/map_pv_pr_202406_siaya.geojson"
+        ],
+        "map_vector": [
+          "data/raw/map_malariaatlas/siaya_kenya/map_dominant_vector_surveys_201201_siaya.geojson"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/siaya_malaria_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/siaya_malaria/siaya_malaria_s0154_hard_negative_water_urban_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 1.40536,
+    "sentinel_datetime": "2025-09-09T08:10:26Z",
+    "sentinel_source": "sentinel-2a",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "hard_negative_water_urban",
+    "packet_std": 38.4058,
+    "repair_attempts": 2
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 0.0,
+        "max": 0.6858,
+        "mean": 0.0332,
+        "median": 0.0,
+        "p90": 0.121
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 0,
+      "major_roads": 0,
+      "schools_waterpoints": 0,
+      "urban_landuse": 0,
+      "water_surface": 0,
+      "waterways": 0
+    },
+    "label_counts": {
+      "vector_label": 0,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "hard_or_ecological_negative",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "hard_negative_water_urban",
+    "sampler_version": "stratified-v0.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2c",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    -34.881776704157225,
+    -8.177564468424418,
+    -34.83635127026887,
+    -8.132598388128482
+  ],
+  "cloud_cover": 19.549918,
+  "datetime": "2025-11-07T12:44:21Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2C_25MBM_20251107_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/recife_dengue/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

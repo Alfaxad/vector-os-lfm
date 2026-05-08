@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "niamey_schistosomiasis_s0188_random_ecological",
+    "aoi_id": "niamey_schistosomiasis",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {}
+  },
+  "features": []
+}

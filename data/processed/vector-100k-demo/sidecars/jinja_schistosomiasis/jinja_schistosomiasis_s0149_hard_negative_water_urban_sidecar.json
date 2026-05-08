@@ -1,0 +1,150 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "jinja_schistosomiasis_s0149_hard_negative_water_urban",
+  "aoi_id": "jinja_schistosomiasis",
+  "split": "train",
+  "disease_module": "schistosomiasis",
+  "primary_disease": "schistosomiasis",
+  "country": "Uganda",
+  "name": "Jinja/Lake Victoria Nile source, Uganda",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 33.47602923841583,
+    "lat": 0.6042613268163323
+  },
+  "bbox": [
+    33.45354494786632,
+    0.581778286668364,
+    33.49851352896535,
+    0.6267443669643006
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/jinja_schistosomiasis/jinja_schistosomiasis_s0149_hard_negative_water_urban_packet.png",
+    "sha256": "e6bb5ddc5a0e26144d0569f408179769138263d391d48e519b52f30efdcb9c17",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/jinja_schistosomiasis/jinja_schistosomiasis_s0149_hard_negative_water_urban",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/jinja_schistosomiasis/jinja_schistosomiasis_s0149_hard_negative_water_urban/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/jinja_schistosomiasis/jinja_schistosomiasis_s0149_hard_negative_water_urban/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/jinja_schistosomiasis/jinja_schistosomiasis_s0149_hard_negative_water_urban/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/jinja_schistosomiasis/jinja_schistosomiasis_s0149_hard_negative_water_urban/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/jinja_schistosomiasis/jinja_schistosomiasis_s0149_hard_negative_water_urban/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/jinja_schistosomiasis/jinja_schistosomiasis_s0149_hard_negative_water_urban/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/jinja_uganda/jinja_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/jinja_uganda/jinja_worldpop_2025_constrained_100m.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/jinja_uganda/jinja_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/jinja_uganda/jinja_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/jinja_uganda/jinja_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/jinja_uganda/jinja_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/jinja_uganda/osm_health_facilities_jinja.overpass.json",
+        "major_roads": "data/raw/osm/jinja_uganda/osm_major_roads_jinja.overpass.json",
+        "schools_waterpoints": "data/raw/osm/jinja_uganda/osm_schools_waterpoints_jinja.overpass.json",
+        "urban_landuse": "data/raw/osm/jinja_uganda/osm_urban_landuse_jinja.overpass.json",
+        "water_surface": "data/raw/osm/jinja_uganda/osm_water_surface_jinja.overpass.json",
+        "waterways": "data/raw/osm/jinja_uganda/osm_waterways_jinja.overpass.json"
+      },
+      "labels": {
+        "gbif_intermediate_host": [
+          "data/raw/map_gbif/jinja_uganda/gbif_freshwater_snails_jinja_occurrences.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/jinja_schistosomiasis_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/jinja_schistosomiasis/jinja_schistosomiasis_s0149_hard_negative_water_urban_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 8.090474,
+    "sentinel_datetime": "2025-11-24T08:19:51Z",
+    "sentinel_source": "sentinel-2b",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "hard_negative_water_urban",
+    "packet_std": 53.9986,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 2.3212,
+        "max": 4.3441,
+        "mean": 3.8084,
+        "median": 4.1313,
+        "p90": 4.2999
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 257064,
+        "min": 0.3248,
+        "max": 47.1566,
+        "mean": 23.1197,
+        "median": 22.2777,
+        "p90": 41.651
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 44,
+      "major_roads": 431,
+      "schools_waterpoints": 125,
+      "urban_landuse": 29520,
+      "water_surface": 39,
+      "waterways": 377
+    },
+    "label_counts": {
+      "vector_label": 0,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "hard_or_ecological_negative",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "hard_negative_water_urban",
+    "sampler_version": "stratified-v0.1"
+  }
+}

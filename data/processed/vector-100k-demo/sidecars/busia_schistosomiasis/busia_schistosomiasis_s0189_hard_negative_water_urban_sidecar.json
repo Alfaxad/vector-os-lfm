@@ -1,0 +1,145 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "busia_schistosomiasis_s0189_hard_negative_water_urban",
+  "aoi_id": "busia_schistosomiasis",
+  "split": "train",
+  "disease_module": "schistosomiasis",
+  "primary_disease": "schistosomiasis",
+  "country": "Kenya",
+  "name": "Busia County, Kenya",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 33.911713771499834,
+    "lat": 0.22800036305475097
+  },
+  "bbox": [
+    33.889230553338045,
+    0.2055173229067827,
+    33.93419698966162,
+    0.2504834032027192
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/busia_schistosomiasis/busia_schistosomiasis_s0189_hard_negative_water_urban_packet.png",
+    "sha256": "55e04b8138e9d5fa62f7f8094a0d3a043d416254716151fc9c0c36e845cf6d2a",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/busia_schistosomiasis/busia_schistosomiasis_s0189_hard_negative_water_urban",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/busia_schistosomiasis/busia_schistosomiasis_s0189_hard_negative_water_urban/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/busia_schistosomiasis/busia_schistosomiasis_s0189_hard_negative_water_urban/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/busia_schistosomiasis/busia_schistosomiasis_s0189_hard_negative_water_urban/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/busia_schistosomiasis/busia_schistosomiasis_s0189_hard_negative_water_urban/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/busia_schistosomiasis/busia_schistosomiasis_s0189_hard_negative_water_urban/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/busia_schistosomiasis/busia_schistosomiasis_s0189_hard_negative_water_urban/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/busia_kenya/busia_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/busia_kenya/busia_worldpop_2025_constrained_100m.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/busia_kenya/busia_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/busia_kenya/busia_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/busia_kenya/busia_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/busia_kenya/busia_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/busia_kenya/osm_health_facilities_busia.overpass.json",
+        "major_roads": "data/raw/osm/busia_kenya/osm_major_roads_busia.overpass.json",
+        "schools_waterpoints": "data/raw/osm/busia_kenya/osm_schools_waterpoints_busia.overpass.json",
+        "urban_landuse": "data/raw/osm/busia_kenya/osm_urban_landuse_busia.overpass.json",
+        "water_surface": "data/raw/osm/busia_kenya/osm_water_surface_busia.overpass.json",
+        "waterways": "data/raw/osm/busia_kenya/osm_waterways_busia.overpass.json"
+      },
+      "labels": {
+        "gbif_intermediate_host": [
+          "data/raw/map_gbif/busia_kenya/gbif_freshwater_snails_busia_occurrences.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/busia_schistosomiasis_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/busia_schistosomiasis/busia_schistosomiasis_s0189_hard_negative_water_urban_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 0.531272,
+    "sentinel_datetime": "2025-12-08T08:10:14Z",
+    "sentinel_source": "sentinel-2a",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "hard_negative_water_urban",
+    "packet_std": 52.986,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 4.5734,
+        "max": 4.8872,
+        "mean": 4.7127,
+        "median": 4.7111,
+        "p90": 4.8066
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 1,
+      "major_roads": 4,
+      "schools_waterpoints": 2,
+      "urban_landuse": 7,
+      "water_surface": 0,
+      "waterways": 0
+    },
+    "label_counts": {
+      "vector_label": 0,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "hard_or_ecological_negative",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "hard_negative_water_urban",
+    "sampler_version": "stratified-v0.1"
+  }
+}

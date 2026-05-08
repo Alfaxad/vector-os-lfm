@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2a",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    -73.28225144215324,
+    -3.760568083930639,
+    -73.23718949267624,
+    -3.7156020036347024
+  ],
+  "cloud_cover": 9.01993,
+  "datetime": "2025-09-28T15:24:27Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2A_18MXA_20250928_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/iquitos_dengue/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

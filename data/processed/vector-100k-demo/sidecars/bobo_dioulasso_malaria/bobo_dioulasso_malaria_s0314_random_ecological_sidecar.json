@@ -1,0 +1,157 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "bobo_dioulasso_malaria_s0314_random_ecological",
+  "aoi_id": "bobo_dioulasso_malaria",
+  "split": "train",
+  "disease_module": "mosquito_anopheles_malaria",
+  "primary_disease": "malaria",
+  "country": "Burkina Faso",
+  "name": "Bobo-Dioulasso, Burkina Faso",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": -4.281143567094226,
+    "lat": 11.329415415328718
+  },
+  "bbox": [
+    -4.304073419927931,
+    11.30693237518075,
+    -4.2582137142605205,
+    11.351898455476686
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/bobo_dioulasso_malaria/bobo_dioulasso_malaria_s0314_random_ecological_packet.png",
+    "sha256": "9da444b026d47eaaadfbef13d9234a352125953e4fabcda7e29698a137c1d472",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/bobo_dioulasso_malaria/bobo_dioulasso_malaria_s0314_random_ecological",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/bobo_dioulasso_malaria/bobo_dioulasso_malaria_s0314_random_ecological/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/bobo_dioulasso_malaria/bobo_dioulasso_malaria_s0314_random_ecological/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/bobo_dioulasso_malaria/bobo_dioulasso_malaria_s0314_random_ecological/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/bobo_dioulasso_malaria/bobo_dioulasso_malaria_s0314_random_ecological/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/bobo_dioulasso_malaria/bobo_dioulasso_malaria_s0314_random_ecological/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/bobo_dioulasso_malaria/bobo_dioulasso_malaria_s0314_random_ecological/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/bobo_dioulasso_burkina_faso/bobo_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/bobo_dioulasso_burkina_faso/bobo_worldpop_2020_100m_arcgis.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/bobo_dioulasso_burkina_faso/bobo_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/bobo_dioulasso_burkina_faso/bobo_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/bobo_dioulasso_burkina_faso/bobo_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/bobo_dioulasso_burkina_faso/bobo_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/bobo_dioulasso_burkina_faso/osm_health_facilities_bobo.overpass.json",
+        "major_roads": "data/raw/osm/bobo_dioulasso_burkina_faso/osm_major_roads_bobo.overpass.json",
+        "schools_waterpoints": "data/raw/osm/bobo_dioulasso_burkina_faso/osm_schools_waterpoints_bobo.overpass.json",
+        "urban_landuse": "data/raw/osm/bobo_dioulasso_burkina_faso/osm_urban_landuse_bobo.overpass.json",
+        "water_surface": "data/raw/osm/bobo_dioulasso_burkina_faso/osm_water_surface_bobo.overpass.json",
+        "waterways": "data/raw/osm/bobo_dioulasso_burkina_faso/osm_waterways_bobo.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/bobo_dioulasso_burkina_faso/gbif_anopheles_bobo_occurrences.csv"
+        ],
+        "map_disease": [
+          "data/raw/map_malariaatlas/bobo_dioulasso_burkina_faso/map_pf_pr_202406_bobo.geojson",
+          "data/raw/map_malariaatlas/bobo_dioulasso_burkina_faso/map_pv_pr_202406_bobo.geojson"
+        ],
+        "map_vector": [
+          "data/raw/map_malariaatlas/bobo_dioulasso_burkina_faso/map_dominant_vector_surveys_201201_bobo.geojson"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/bobo_dioulasso_malaria_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/bobo_dioulasso_malaria/bobo_dioulasso_malaria_s0314_random_ecological_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 0,
+    "sentinel_datetime": "2025-12-29T10:58:22Z",
+    "sentinel_source": "sentinel-2a",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "random_ecological",
+    "packet_std": 59.605,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p90": 0.0
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 173056,
+        "min": 0.2445,
+        "max": 1.6925,
+        "mean": 0.3708,
+        "median": 0.3256,
+        "p90": 0.4811
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 0,
+      "major_roads": 0,
+      "schools_waterpoints": 0,
+      "urban_landuse": 0,
+      "water_surface": 0,
+      "waterways": 1
+    },
+    "label_counts": {
+      "vector_label": 0,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "hard_or_ecological_negative",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "random_ecological",
+    "sampler_version": "stratified-v0.1"
+  }
+}

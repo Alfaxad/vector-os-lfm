@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2b",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    -5.6546536958153535,
+    9.436498668026683,
+    -5.609067807308348,
+    9.481464748322619
+  ],
+  "cloud_cover": 0,
+  "datetime": "2025-12-22T10:58:35Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2B_29PRL_20251222_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/korhogo_malaria/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

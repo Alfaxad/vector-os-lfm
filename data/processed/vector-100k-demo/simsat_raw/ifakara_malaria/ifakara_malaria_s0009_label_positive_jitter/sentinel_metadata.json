@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2a",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    36.66298763849231,
+    -8.168540291620632,
+    36.70841204770156,
+    -8.123574211324696
+  ],
+  "cloud_cover": 0.003184,
+  "datetime": "2025-09-06T08:02:19Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2A_37MBM_20250906_1_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/ifakara_malaria/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "singapore_dengue_s0314_random_ecological",
+    "aoi_id": "singapore_dengue",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {
+      "urban": 1
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7075413,
+          1.2563545
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "urban",
+        "source": "OpenStreetMap",
+        "name": "Vopak Sakra Terminal",
+        "title": "Mapped urban land-use context",
+        "summary": "OSM maps Vopak Sakra Terminal as built or urban context inside this selected chip.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 534484191,
+          "landuse": "industrial"
+        }
+      }
+    }
+  ]
+}

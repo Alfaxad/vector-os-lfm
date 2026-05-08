@@ -1,0 +1,10 @@
+{
+  "target_visible": true,
+  "image_available": true,
+  "elevation_degrees": 90.0,
+  "zoom_factor": 14.08349873228288,
+  "bearing": 0.0,
+  "pitch": 0.0,
+  "source_image_size": "512x512@2x",
+  "image_path": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/simsat_raw/recife_dengue/recife_dengue_s0068_label_positive_jitter/mapbox_satellite.png"
+}

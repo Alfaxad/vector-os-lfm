@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2b",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    33.45354494786632,
+    0.581778286668364,
+    33.49851352896535,
+    0.6267443669643006
+  ],
+  "cloud_cover": 8.090474,
+  "datetime": "2025-11-24T08:19:51Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2B_36NWF_20251124_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/jinja_schistosomiasis/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

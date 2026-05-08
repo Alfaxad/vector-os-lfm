@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2b",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    34.89816280922011,
+    -0.21486341947115895,
+    34.94312914299002,
+    -0.16989733917522243
+  ],
+  "cloud_cover": 0.594942,
+  "datetime": "2025-11-11T08:10:07Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2B_36MYE_20251111_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/kisumu_malaria/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

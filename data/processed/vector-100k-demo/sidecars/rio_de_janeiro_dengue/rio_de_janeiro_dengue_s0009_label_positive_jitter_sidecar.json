@@ -1,0 +1,150 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "rio_de_janeiro_dengue_s0009_label_positive_jitter",
+  "aoi_id": "rio_de_janeiro_dengue",
+  "split": "train",
+  "disease_module": "dengue_aedes",
+  "primary_disease": "dengue",
+  "country": "Brazil",
+  "name": "Rio de Janeiro, Brazil",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": -43.212171349375424,
+    "lat": -22.900098461508993
+  },
+  "bbox": [
+    -43.23657800663781,
+    -22.92258150165696,
+    -43.18776469211304,
+    -22.877615421361025
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/rio_de_janeiro_dengue/rio_de_janeiro_dengue_s0009_label_positive_jitter_packet.png",
+    "sha256": "2b8303edad29d1385ad4977bcabd1abaf33536de67d2c4eef97d8862b0c9477d",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/rio_de_janeiro_dengue/rio_de_janeiro_dengue_s0009_label_positive_jitter",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/rio_de_janeiro_dengue/rio_de_janeiro_dengue_s0009_label_positive_jitter/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/rio_de_janeiro_dengue/rio_de_janeiro_dengue_s0009_label_positive_jitter/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/rio_de_janeiro_dengue/rio_de_janeiro_dengue_s0009_label_positive_jitter/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/rio_de_janeiro_dengue/rio_de_janeiro_dengue_s0009_label_positive_jitter/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/rio_de_janeiro_dengue/rio_de_janeiro_dengue_s0009_label_positive_jitter/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/rio_de_janeiro_dengue/rio_de_janeiro_dengue_s0009_label_positive_jitter/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/rio_de_janeiro_brazil/rio_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/rio_de_janeiro_brazil/rio_worldpop_2020_100m_arcgis.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/rio_de_janeiro_brazil/rio_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/rio_de_janeiro_brazil/rio_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/rio_de_janeiro_brazil/rio_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/rio_de_janeiro_brazil/rio_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/rio_de_janeiro_brazil/osm_health_facilities_rio.overpass.json",
+        "major_roads": "data/raw/osm/rio_de_janeiro_brazil/osm_major_roads_rio.overpass.json",
+        "schools_waterpoints": "data/raw/osm/rio_de_janeiro_brazil/osm_schools_waterpoints_rio.overpass.json",
+        "urban_landuse": "data/raw/osm/rio_de_janeiro_brazil/osm_urban_landuse_rio.overpass.json",
+        "water_surface": "data/raw/osm/rio_de_janeiro_brazil/osm_water_surface_rio.overpass.json",
+        "waterways": "data/raw/osm/rio_de_janeiro_brazil/osm_waterways_rio.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/rio_de_janeiro_brazil/gbif_aedes_rio_occurrences.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/rio_de_janeiro_dengue_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/rio_de_janeiro_dengue/rio_de_janeiro_dengue_s0009_label_positive_jitter_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 0.026526,
+    "sentinel_datetime": "2025-12-23T13:08:44Z",
+    "sentinel_source": "sentinel-2c",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "label_positive_jitter",
+    "packet_std": 65.6998,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 4.8413,
+        "max": 7.0931,
+        "mean": 5.9212,
+        "median": 5.9129,
+        "p90": 6.6147
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 216404,
+        "min": 0.0,
+        "max": 1209.8403,
+        "mean": 88.7563,
+        "median": 46.5554,
+        "p90": 229.7386
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 86,
+      "major_roads": 3924,
+      "schools_waterpoints": 139,
+      "urban_landuse": 18942,
+      "water_surface": 17,
+      "waterways": 90
+    },
+    "label_counts": {
+      "vector_label": 160,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "weak_label_positive",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "label_positive_jitter",
+    "sampler_version": "stratified-v0.1"
+  }
+}

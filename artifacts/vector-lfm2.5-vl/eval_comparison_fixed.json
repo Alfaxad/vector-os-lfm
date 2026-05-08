@@ -1,0 +1,149 @@
+{
+  "base_hf": {
+    "cuda_max_memory_gb": 20.364948749542236,
+    "device": "NVIDIA H100 80GB HBM3",
+    "generation": {
+      "by_task_normalized_exact_match_rate": {
+        "copilot_why_here": 0.0,
+        "evidence_cards_json": 0.0,
+        "exposure_summary_json": 0.0,
+        "field_task_brief": 0.0,
+        "habitat_patch_summary": 0.0,
+        "hard_negative_assessment": 0.0,
+        "officer_explanation": 0.0,
+        "risk_tile_json": 0.0,
+        "source_provenance_json": 0.0,
+        "uncertainty_audit_json": 0.0
+      },
+      "by_task_sequence_similarity_median": {
+        "copilot_why_here": 0.25019061692408384,
+        "evidence_cards_json": 0.19346919558783965,
+        "exposure_summary_json": 0.11191973344690231,
+        "field_task_brief": 0.08587669430265071,
+        "habitat_patch_summary": 0.11405803064143255,
+        "hard_negative_assessment": 0.15614529420780232,
+        "officer_explanation": 0.18307231230308152,
+        "risk_tile_json": 0.08443323365660482,
+        "source_provenance_json": 0.0467877094972067,
+        "uncertainty_audit_json": 0.24822535611187355
+      },
+      "confidence_mae": null,
+      "generation_errors": 0,
+      "generations_path": "/mnt/vectoros/runs/vector-lfm25vl-hf-reeval-ml4096-gen1600-n300-lossbfull/base_hf_generations.jsonl",
+      "json_parse_rate": 0.9933333333333333,
+      "json_task_total": 150,
+      "normalized_exact_match_rate": 0.0,
+      "prefix_match_ratio_mean": 0.014400577699700514,
+      "prefix_match_ratio_median": 0.0,
+      "raw_counts": {
+        "json_parse_ok": 149,
+        "json_task_total": 150,
+        "risk_metric_errors": 30
+      },
+      "risk_class_accuracy": 0.0,
+      "risk_schema_minimal_rate": 0.0,
+      "risk_score_mae": null,
+      "risk_tile_total": 30,
+      "safety_violation_rate": 0.0,
+      "sample_count": 300,
+      "sequence_similarity_mean": 0.14979985430627094,
+      "sequence_similarity_median": 0.13441102681539238,
+      "source_grounding_expected_recall_rate": 0.5652173913043478,
+      "source_grounding_expected_total": 230,
+      "source_grounding_mention_rate": 0.8533333333333334,
+      "source_grounding_term_recall_rate": 0.2613793103448276
+    },
+    "model_id": "LiquidAI/LFM2.5-VL-450M",
+    "test": {
+      "batches": 1750,
+      "loss": 2.244778553653577,
+      "perplexity": 9.43832524238141,
+      "tokens": 4213561
+    },
+    "validation": {
+      "batches": 1750,
+      "loss": 2.2434148515895105,
+      "perplexity": 9.425462950927063,
+      "tokens": 4196286
+    }
+  },
+  "delta": {
+    "generation_json_parse_rate": 0.00666666666666671,
+    "generation_normalized_exact_match_rate": 0.47333333333333333,
+    "generation_risk_class_accuracy": 0.43333333333333335,
+    "generation_safety_violation_rate": 0.0,
+    "generation_sequence_similarity_median": 0.8639504868722082,
+    "source_grounding_expected_recall_rate": 0.4347826086956522,
+    "test_loss": -2.153500594341147,
+    "validation_loss": -2.1608438898885685
+  },
+  "merged_hf": {
+    "cuda_max_memory_gb": 20.365116596221924,
+    "device": "NVIDIA H100 80GB HBM3",
+    "generation": {
+      "by_task_normalized_exact_match_rate": {
+        "copilot_why_here": 0.9666666666666667,
+        "evidence_cards_json": 0.4666666666666667,
+        "exposure_summary_json": 1.0,
+        "field_task_brief": 0.6,
+        "habitat_patch_summary": 0.4,
+        "hard_negative_assessment": 0.9,
+        "officer_explanation": 0.13333333333333333,
+        "risk_tile_json": 0.0,
+        "source_provenance_json": 0.1,
+        "uncertainty_audit_json": 0.16666666666666666
+      },
+      "by_task_sequence_similarity_median": {
+        "copilot_why_here": 1.0,
+        "evidence_cards_json": 0.9987923996404914,
+        "exposure_summary_json": 1.0,
+        "field_task_brief": 1.0,
+        "habitat_patch_summary": 0.9953917050691244,
+        "hard_negative_assessment": 1.0,
+        "officer_explanation": 0.9954701782632565,
+        "risk_tile_json": 0.9564142083945661,
+        "source_provenance_json": 0.955693138649717,
+        "uncertainty_audit_json": 0.9976303317535545
+      },
+      "confidence_mae": 0.04055555555555554,
+      "generation_errors": 0,
+      "generations_path": "/mnt/vectoros/runs/vector-lfm25vl-hf-reeval-ml4096-gen1600-n300-lossbfull/merged_hf_generations.jsonl",
+      "json_parse_rate": 1.0,
+      "json_task_total": 150,
+      "normalized_exact_match_rate": 0.47333333333333333,
+      "prefix_match_ratio_mean": 0.6523480903127323,
+      "prefix_match_ratio_median": 0.9882696938424493,
+      "raw_counts": {
+        "json_parse_ok": 150,
+        "json_task_total": 150,
+        "risk_metric_errors": 12,
+        "risk_schema_minimal_ok": 17
+      },
+      "risk_class_accuracy": 0.43333333333333335,
+      "risk_schema_minimal_rate": 0.5666666666666667,
+      "risk_score_mae": 9.555555555555555,
+      "risk_tile_total": 30,
+      "safety_violation_rate": 0.0,
+      "sample_count": 300,
+      "sequence_similarity_mean": 0.9647158989838897,
+      "sequence_similarity_median": 0.9983615136876006,
+      "source_grounding_expected_recall_rate": 1.0,
+      "source_grounding_expected_total": 230,
+      "source_grounding_mention_rate": 0.7666666666666667,
+      "source_grounding_term_recall_rate": 0.9668965517241379
+    },
+    "model_id": "Alfaxad/Vector-LFM2.5-VL-450M",
+    "test": {
+      "batches": 1750,
+      "loss": 0.09127795931242967,
+      "perplexity": 1.0955734877930101,
+      "tokens": 4213561
+    },
+    "validation": {
+      "batches": 1750,
+      "loss": 0.08257096170094201,
+      "perplexity": 1.0860757404865167,
+      "tokens": 4196286
+    }
+  }
+}

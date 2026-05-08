@@ -1,0 +1,24 @@
+{
+  "schema_version": "vectoros-demo-provenance-v0.2",
+  "source_dataset": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k",
+  "source_hf_dataset": "Alfaxad/vector-100k",
+  "selection_policy": "3 chips per AOI: top risk, label-positive, and low/hard-negative/random contrast when available",
+  "selected_aoi_count": 30,
+  "selected_chip_count": 90,
+  "copied_modalities": [
+    "image_packet",
+    "sidecar",
+    "risk_tile_target",
+    "simsat_raw_sentinel_rgb",
+    "simsat_raw_sentinel_false_color",
+    "simsat_raw_mapbox_satellite",
+    "simsat_metadata",
+    "compact_per_chip_osm_context_patches",
+    "compact_per_chip_weak_label_context_patches"
+  ],
+  "excluded_modalities": [
+    "full 100k JSONL",
+    "full AOI raw raster mirrors",
+    "model weights"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2c",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    28.642360150592832,
+    -9.193665300169426,
+    28.687908495663617,
+    -9.14869921987349
+  ],
+  "cloud_cover": 0.000126,
+  "datetime": "2025-09-03T08:33:09Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2C_35LPK_20250903_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/nchelenge_malaria/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

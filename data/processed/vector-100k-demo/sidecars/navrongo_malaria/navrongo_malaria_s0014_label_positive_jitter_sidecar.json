@@ -1,0 +1,157 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "navrongo_malaria_s0014_label_positive_jitter",
+  "aoi_id": "navrongo_malaria",
+  "split": "train",
+  "disease_module": "mosquito_anopheles_malaria",
+  "primary_disease": "malaria",
+  "country": "Ghana",
+  "name": "Navrongo/Kassena-Nankana, Ghana",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": -1.1014287137210308,
+    "lat": 10.888073328408417
+  },
+  "bbox": [
+    -1.1243239120042827,
+    10.86559028826045,
+    -1.0785335154377789,
+    10.910556368556385
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/navrongo_malaria/navrongo_malaria_s0014_label_positive_jitter_packet.png",
+    "sha256": "1dd7a166c869cee75ab51d4dfa9e9870c2547abdcc7fbfab07e3a80da1b489c8",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/navrongo_malaria/navrongo_malaria_s0014_label_positive_jitter",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/navrongo_malaria/navrongo_malaria_s0014_label_positive_jitter/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/navrongo_malaria/navrongo_malaria_s0014_label_positive_jitter/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/navrongo_malaria/navrongo_malaria_s0014_label_positive_jitter/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/navrongo_malaria/navrongo_malaria_s0014_label_positive_jitter/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/navrongo_malaria/navrongo_malaria_s0014_label_positive_jitter/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/navrongo_malaria/navrongo_malaria_s0014_label_positive_jitter/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/navrongo_ghana/navrongo_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/navrongo_ghana/navrongo_worldpop_2020_100m_arcgis.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/navrongo_ghana/navrongo_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/navrongo_ghana/navrongo_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/navrongo_ghana/navrongo_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/navrongo_ghana/navrongo_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/navrongo_ghana/osm_health_facilities_navrongo.overpass.json",
+        "major_roads": "data/raw/osm/navrongo_ghana/osm_major_roads_navrongo.overpass.json",
+        "schools_waterpoints": "data/raw/osm/navrongo_ghana/osm_schools_waterpoints_navrongo.overpass.json",
+        "urban_landuse": "data/raw/osm/navrongo_ghana/osm_urban_landuse_navrongo.overpass.json",
+        "water_surface": "data/raw/osm/navrongo_ghana/osm_water_surface_navrongo.overpass.json",
+        "waterways": "data/raw/osm/navrongo_ghana/osm_waterways_navrongo.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/navrongo_ghana/gbif_anopheles_navrongo_occurrences.csv"
+        ],
+        "map_disease": [
+          "data/raw/map_malariaatlas/navrongo_ghana/map_pf_pr_202406_navrongo.geojson",
+          "data/raw/map_malariaatlas/navrongo_ghana/map_pv_pr_202406_navrongo.geojson"
+        ],
+        "map_vector": [
+          "data/raw/map_malariaatlas/navrongo_ghana/map_dominant_vector_surveys_201201_navrongo.geojson"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/navrongo_malaria_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/navrongo_malaria/navrongo_malaria_s0014_label_positive_jitter_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 3.655135,
+    "sentinel_datetime": "2025-12-11T10:38:07Z",
+    "sentinel_source": "sentinel-2c",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "label_positive_jitter",
+    "packet_std": 69.6155,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p90": 0.0
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 259693,
+        "min": 0.8556,
+        "max": 6.9119,
+        "mean": 3.6408,
+        "median": 3.59,
+        "p90": 5.756
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 8,
+      "major_roads": 484,
+      "schools_waterpoints": 14,
+      "urban_landuse": 6268,
+      "water_surface": 2,
+      "waterways": 1
+    },
+    "label_counts": {
+      "vector_label": 18,
+      "disease_label": 5,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "weak_label_positive",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "label_positive_jitter",
+    "sampler_version": "stratified-v0.1"
+  }
+}

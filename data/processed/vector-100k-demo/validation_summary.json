@@ -1,0 +1,55 @@
+{
+  "schema_version": "vectoros-demo-validation-summary-v0.2",
+  "status": "ok",
+  "counts": {
+    "schema_version": "vectoros-demo-validation-v0.2",
+    "chips": 90,
+    "examples_total": 900,
+    "examples_by_split": {
+      "test": 180,
+      "train": 540,
+      "validation": 180
+    },
+    "examples_by_task": {
+      "copilot_why_here": 90,
+      "evidence_cards_json": 90,
+      "exposure_summary_json": 90,
+      "field_task_brief": 90,
+      "habitat_patch_summary": 90,
+      "hard_negative_assessment": 90,
+      "officer_explanation": 90,
+      "risk_tile_json": 90,
+      "source_provenance_json": 90,
+      "uncertainty_audit_json": 90
+    },
+    "split_chip_counts": {
+      "test": 18,
+      "train": 54,
+      "validation": 18
+    },
+    "risk_class_counts": {
+      "high": 18,
+      "low": 55,
+      "moderate": 15,
+      "very_high": 2
+    },
+    "sample_type_counts": {
+      "exposure_context": 3,
+      "hard_negative_water_urban": 23,
+      "label_positive_jitter": 46,
+      "random_ecological": 17,
+      "uncertain_sparse_context": 1
+    },
+    "module_chip_counts": {
+      "dengue_aedes": 30,
+      "mosquito_anopheles_malaria": 30,
+      "schistosomiasis": 30
+    },
+    "aoi_count": 30,
+    "packets_exist": 90,
+    "simsat_raw_dirs": 90,
+    "context_patch_files": 90,
+    "context_patch_features": 34437,
+    "parsed_osm_or_label_source_files": 150
+  }
+}

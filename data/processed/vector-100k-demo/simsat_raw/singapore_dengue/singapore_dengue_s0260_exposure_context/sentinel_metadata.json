@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2c",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    103.81624431454756,
+    1.279648636080269,
+    103.86122200967867,
+    1.3246147163762056
+  ],
+  "cloud_cover": 10.657708,
+  "datetime": "2025-12-05T03:37:54Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2C_48NUG_20251205_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/singapore_dengue/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "bobo_dioulasso_malaria_s0314_random_ecological",
+    "aoi_id": "bobo_dioulasso_malaria",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {
+      "water": 1
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.28524,
+          11.3379796
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "stream",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps stream as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 343257212,
+          "waterway": "stream"
+        }
+      }
+    }
+  ]
+}

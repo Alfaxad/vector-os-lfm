@@ -1,0 +1,1232 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "chip_id": "kisumu_malaria_s0024_label_positive_jitter",
+    "aoi_id": "kisumu_malaria",
+    "source": "compacted OSM and weak-label context from VectorOS source AOI files",
+    "feature_counts": {
+      "water": 53
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9348976,
+          -0.1760787
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 170850561,
+          "natural": "water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8988733,
+          -0.2139854
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327341,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9017615,
+          -0.2126563
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327338,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9004351,
+          -0.2129101
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327339,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9053934,
+          -0.2116216
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327336,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9006683,
+          -0.203755
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327324,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9005514,
+          -0.2039685
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327326,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.916601,
+          -0.2010244
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327322,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9138883,
+          -0.2032995
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327323,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9126046,
+          -0.2039004
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327325,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9120347,
+          -0.2043385
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327327,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9179881,
+          -0.1940062
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327319,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9175735,
+          -0.1842238
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327294,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9042831,
+          -0.1702564
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327230,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9037623,
+          -0.1711982
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327234,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9170406,
+          -0.1800589
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327276,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9060904,
+          -0.1729532
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327237,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9153415,
+          -0.1732254
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327238,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9177009,
+          -0.1920039
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327317,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9176263,
+          -0.1802723
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327277,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9234221,
+          -0.1817454
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327284,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9176811,
+          -0.183817
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327291,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9177521,
+          -0.1845019
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327296,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9297644,
+          -0.1847398
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327298,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9348722,
+          -0.1884324
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327309,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.933003,
+          -0.1898171
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327312,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9344979,
+          -0.1907954
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327316,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9406058,
+          -0.188505
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327310,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9395686,
+          -0.1894352
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327311,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9391934,
+          -0.1901705
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327313,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9377264,
+          -0.1904551
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327315,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9313109,
+          -0.1807259
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327281,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9347482,
+          -0.1839251
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327292,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.931339,
+          -0.1847953
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327299,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9325811,
+          -0.1850632
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327300,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9383437,
+          -0.1810372
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327282,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.940043,
+          -0.1832631
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327290,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9392568,
+          -0.1839916
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327293,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9403927,
+          -0.1843161
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327295,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9376971,
+          -0.1850915
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327301,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9193591,
+          -0.1762213
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327263,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9245377,
+          -0.1739953
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327244,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9246333,
+          -0.1740369
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327245,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9245547,
+          -0.1740537
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327246,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9301886,
+          -0.1750345
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327258,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9289613,
+          -0.1759731
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327262,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9243842,
+          -0.1768184
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327265,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9281016,
+          -0.1772006
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327266,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9292532,
+          -0.1775732
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327267,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9300286,
+          -0.1792559
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327269,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9200647,
+          -0.1734956
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327240,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9342399,
+          -0.1797236
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "water_point",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps water_point as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "node",
+          "osm_id": 3784327271,
+          "amenity": "water_point"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9290638,
+          -0.2053158
+        ]
+      },
+      "properties": {
+        "kind": "osm_context",
+        "layer": "water",
+        "source": "OpenStreetMap",
+        "name": "Nyando river",
+        "title": "OpenStreetMap water context",
+        "summary": "OSM maps Nyando river as water context inside this selected chip. Use with CHIRPS and JRC before prioritizing review.",
+        "metrics": {
+          "osm_type": "way",
+          "osm_id": 655224866,
+          "waterway": "river"
+        }
+      }
+    }
+  ]
+}

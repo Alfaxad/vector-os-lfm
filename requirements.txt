@@ -1,0 +1,16 @@
+# VectorOS web app
+django>=5.0,<6.0
+django-cors-headers>=4.3,<5.0
+python-dotenv>=1.0,<2.0
+
+# Local live inference for Alfaxad/Vector-LFM2.5-VL-450M
+torch>=2.6,<3.0
+transformers>=5.1,<6.0
+accelerate>=1.0,<2.0
+huggingface-hub>=0.30,<2.0
+safetensors>=0.4,<1.0
+Pillow>=10.0,<12.0
+
+# Tokenizer / processor support used by many HF vision-language checkpoints.
+sentencepiece>=0.2,<1.0
+protobuf>=4.25,<7.0

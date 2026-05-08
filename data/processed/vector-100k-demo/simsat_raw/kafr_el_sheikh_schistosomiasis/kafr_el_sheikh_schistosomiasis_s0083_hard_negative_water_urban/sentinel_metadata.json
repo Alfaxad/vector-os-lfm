@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2c",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    30.881495202926175,
+    31.50246159764063,
+    30.93424674602909,
+    31.547427677936565
+  ],
+  "cloud_cover": 0.007677,
+  "datetime": "2025-12-31T08:51:44Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2C_36RTV_20251231_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/kafr_el_sheikh_schistosomiasis/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

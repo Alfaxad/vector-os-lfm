@@ -1,0 +1,150 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "mbita_schistosomiasis_s0020_label_positive_jitter",
+  "aoi_id": "mbita_schistosomiasis",
+  "split": "train",
+  "disease_module": "schistosomiasis",
+  "primary_disease": "schistosomiasis",
+  "country": "Kenya",
+  "name": "Mbita/Homa Bay lakeshore, Kenya",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 34.21362472492533,
+    "lat": -0.4258330150033155
+  },
+  "bbox": [
+    34.19114106381049,
+    -0.44831605515128375,
+    34.23610838604017,
+    -0.40334997485534724
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/mbita_schistosomiasis/mbita_schistosomiasis_s0020_label_positive_jitter_packet.png",
+    "sha256": "0455a45444ffce06ef31d8f7ca6cf0dcd5bdef1f28acc93bd30fd50e4518cd3c",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/mbita_schistosomiasis/mbita_schistosomiasis_s0020_label_positive_jitter",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/mbita_schistosomiasis/mbita_schistosomiasis_s0020_label_positive_jitter/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/mbita_schistosomiasis/mbita_schistosomiasis_s0020_label_positive_jitter/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/mbita_schistosomiasis/mbita_schistosomiasis_s0020_label_positive_jitter/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/mbita_schistosomiasis/mbita_schistosomiasis_s0020_label_positive_jitter/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/mbita_schistosomiasis/mbita_schistosomiasis_s0020_label_positive_jitter/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/mbita_schistosomiasis/mbita_schistosomiasis_s0020_label_positive_jitter/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/mbita_kenya/mbita_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/mbita_kenya/mbita_worldpop_2025_constrained_100m.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/mbita_kenya/mbita_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/mbita_kenya/mbita_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/mbita_kenya/mbita_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/mbita_kenya/mbita_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/mbita_kenya/osm_health_facilities_mbita.overpass.json",
+        "major_roads": "data/raw/osm/mbita_kenya/osm_major_roads_mbita.overpass.json",
+        "schools_waterpoints": "data/raw/osm/mbita_kenya/osm_schools_waterpoints_mbita.overpass.json",
+        "urban_landuse": "data/raw/osm/mbita_kenya/osm_urban_landuse_mbita.overpass.json",
+        "water_surface": "data/raw/osm/mbita_kenya/osm_water_surface_mbita.overpass.json",
+        "waterways": "data/raw/osm/mbita_kenya/osm_waterways_mbita.overpass.json"
+      },
+      "labels": {
+        "gbif_intermediate_host": [
+          "data/raw/map_gbif/mbita_kenya/gbif_freshwater_snails_mbita_occurrences.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/mbita_schistosomiasis_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/mbita_schistosomiasis/mbita_schistosomiasis_s0020_label_positive_jitter_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 1.40536,
+    "sentinel_datetime": "2025-09-09T08:10:26Z",
+    "sentinel_source": "sentinel-2a",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "label_positive_jitter",
+    "packet_std": 45.8501,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 3.4298,
+        "max": 5.0773,
+        "mean": 4.6406,
+        "median": 4.673,
+        "p90": 4.9323
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 113507,
+        "min": 0.0,
+        "max": 63.8242,
+        "mean": 20.6535,
+        "median": 18.035,
+        "p90": 41.8491
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 3,
+      "major_roads": 100,
+      "schools_waterpoints": 8,
+      "urban_landuse": 7529,
+      "water_surface": 3,
+      "waterways": 0
+    },
+    "label_counts": {
+      "vector_label": 0,
+      "disease_label": 0,
+      "intermediate_host_label": 32,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "weak_label_positive",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "label_positive_jitter",
+    "sampler_version": "stratified-v0.1"
+  }
+}

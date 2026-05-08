@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2c",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    145.72931479148573,
+    -16.94434142055663,
+    145.77631589691075,
+    -16.899375340260693
+  ],
+  "cloud_cover": 94.470769,
+  "datetime": "2025-12-18T00:31:46Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2C_55KCB_20251218_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/cairns_dengue/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

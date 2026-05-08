@@ -1,0 +1,82 @@
+{
+  "schema_version": "vectoros-simsat-lfm25vl-100k-dataset-manifest-v0.1",
+  "dataset_id": "vectoros_vector_100k_demo_v0_2",
+  "run_id": "vectoros_vector_100k_demo_20260509",
+  "created_at": "2026-05-06T16:52:30Z",
+  "root": "data/processed/vector-100k-demo",
+  "model_target": "LiquidAI/LFM2.5-VL-450M",
+  "records": {
+    "all_examples": "data/processed/vector-100k-demo/all_examples.jsonl",
+    "train": "data/processed/vector-100k-demo/train.jsonl",
+    "validation": "data/processed/vector-100k-demo/validation.jsonl",
+    "test": "data/processed/vector-100k-demo/test.jsonl"
+  },
+  "schemas": {
+    "risk_tile_target": "data/processed/vector-100k-demo/schemas/risk_tile_target.schema.json",
+    "vlm_record": "data/processed/vector-100k-demo/schemas/vlm_record.schema.json"
+  },
+  "metadata": {
+    "chip_index": "data/processed/vector-100k-demo/chip_index.json",
+    "splits": "data/processed/vector-100k-demo/splits.json",
+    "provenance": "data/processed/vector-100k-demo/provenance.json",
+    "validation_summary": "data/processed/vector-100k-demo/validation_summary.json",
+    "dataset_card": "data/processed/vector-100k-demo/README.md"
+  },
+  "counts": {
+    "schema_version": "vectoros-demo-validation-v0.2",
+    "chips": 90,
+    "examples_total": 900,
+    "examples_by_split": {
+      "test": 180,
+      "train": 540,
+      "validation": 180
+    },
+    "examples_by_task": {
+      "copilot_why_here": 90,
+      "evidence_cards_json": 90,
+      "exposure_summary_json": 90,
+      "field_task_brief": 90,
+      "habitat_patch_summary": 90,
+      "hard_negative_assessment": 90,
+      "officer_explanation": 90,
+      "risk_tile_json": 90,
+      "source_provenance_json": 90,
+      "uncertainty_audit_json": 90
+    },
+    "split_chip_counts": {
+      "test": 18,
+      "train": 54,
+      "validation": 18
+    },
+    "risk_class_counts": {
+      "high": 18,
+      "low": 55,
+      "moderate": 15,
+      "very_high": 2
+    },
+    "sample_type_counts": {
+      "exposure_context": 3,
+      "hard_negative_water_urban": 23,
+      "label_positive_jitter": 46,
+      "random_ecological": 17,
+      "uncertain_sparse_context": 1
+    },
+    "module_chip_counts": {
+      "dengue_aedes": 30,
+      "mosquito_anopheles_malaria": 30,
+      "schistosomiasis": 30
+    },
+    "aoi_count": 30,
+    "packets_exist": 90,
+    "simsat_raw_dirs": 90,
+    "context_patch_files": 90,
+    "context_patch_features": 34437,
+    "parsed_osm_or_label_source_files": 150
+  },
+  "public_release_flags": {
+    "mapbox": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "health_data": "aggregate_or_open only; no personal health data included",
+    "weak_labels": "presence-only and survey-biased labels; not calibrated epidemiological truth"
+  }
+}

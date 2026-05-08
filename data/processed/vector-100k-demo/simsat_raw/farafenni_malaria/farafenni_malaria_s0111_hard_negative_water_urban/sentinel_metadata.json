@@ -1,0 +1,26 @@
+{
+  "image_available": true,
+  "source": "sentinel-2b",
+  "spectral_bands": [
+    "red",
+    "green",
+    "blue",
+    "nir"
+  ],
+  "footprint": [
+    -15.601437128484873,
+    13.542131942478974,
+    -15.555180775108413,
+    13.58709802277491
+  ],
+  "cloud_cover": 0.000309,
+  "datetime": "2025-11-14T11:37:35Z",
+  "selection_strategy": "aoi-cache-crop",
+  "item_id": "S2B_28PDA_20251114_0_L2A",
+  "aoi_cache_metadata": "/Users/alfaxad/Desktop/AI/Vector/data/processed/vector-100k/sentinel_aoi_cache/farafenni_malaria/sentinel_aoi_metadata.json",
+  "band_array_shape": [
+    4,
+    512,
+    512
+  ]
+}

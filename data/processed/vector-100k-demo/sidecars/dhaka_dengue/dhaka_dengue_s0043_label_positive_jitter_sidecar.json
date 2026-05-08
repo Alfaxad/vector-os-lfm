@@ -1,0 +1,150 @@
+{
+  "schema_version": "vectoros-chip-sidecar-v0.2",
+  "packet_schema_version": "vectoros-simsat-mapbox-packet-v0.1",
+  "run_id": "vectoros_vector_100k_simsat_20260506",
+  "chip_id": "dhaka_dengue_s0043_label_positive_jitter",
+  "aoi_id": "dhaka_dengue",
+  "split": "train",
+  "disease_module": "dengue_aedes",
+  "primary_disease": "dengue",
+  "country": "Bangladesh",
+  "name": "Dhaka District, Bangladesh",
+  "timestamp": "2025-12-31T12:00:00Z",
+  "chip_size_km": 5.0,
+  "pixels": 512,
+  "center": {
+    "lon": 90.40263249301235,
+    "lat": 23.722473209314085
+  },
+  "bbox": [
+    90.37807441475977,
+    23.699990169166117,
+    90.42719057126493,
+    23.744956249462053
+  ],
+  "panel_order": [
+    "top_left: SimSat Sentinel-2 true-color RGB",
+    "top_right: SimSat Sentinel-2 false color NIR-red-green",
+    "bottom_left: Mapbox satellite context",
+    "bottom_right: aligned evidence overlay from ESA WorldCover, JRC water, CHIRPS rainfall, WorldPop, OSM, and weak labels"
+  ],
+  "image_packet": {
+    "path": "data/processed/vector-100k-demo/image_packets/dhaka_dengue/dhaka_dengue_s0043_label_positive_jitter_packet.png",
+    "sha256": "69d89766c63e7e911f1752c4163ebd3893b95245262759ee953f7a588d7cbead",
+    "width": 1024,
+    "height": 1024
+  },
+  "source_assets": {
+    "packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "simsat_raw_dir": "data/processed/vector-100k-demo/simsat_raw/dhaka_dengue/dhaka_dengue_s0043_label_positive_jitter",
+    "sentinel_rgb": "data/processed/vector-100k-demo/simsat_raw/dhaka_dengue/dhaka_dengue_s0043_label_positive_jitter/sentinel_rgb.png",
+    "sentinel_false_color": "data/processed/vector-100k-demo/simsat_raw/dhaka_dengue/dhaka_dengue_s0043_label_positive_jitter/sentinel_false_color_nir_red_green.png",
+    "sentinel_bands": "data/processed/vector-100k-demo/simsat_raw/dhaka_dengue/dhaka_dengue_s0043_label_positive_jitter/sentinel_bands_red_green_blue_nir.npz",
+    "sentinel_metadata": "data/processed/vector-100k-demo/simsat_raw/dhaka_dengue/dhaka_dengue_s0043_label_positive_jitter/sentinel_metadata.json",
+    "mapbox_satellite": "data/processed/vector-100k-demo/simsat_raw/dhaka_dengue/dhaka_dengue_s0043_label_positive_jitter/mapbox_satellite.png",
+    "mapbox_metadata": "data/processed/vector-100k-demo/simsat_raw/dhaka_dengue/dhaka_dengue_s0043_label_positive_jitter/mapbox_metadata.json",
+    "source_layers": {
+      "rainfall_chirps": "data/raw/chirps/daily_v2_p05/2025/chirps-v2.0.2025.12.31.tif.gz",
+      "land_cover_worldcover": "data/raw/esa_worldcover/dhaka_bangladesh/dhaka_worldcover_2021_v200_map.tif",
+      "population_worldpop": "data/raw/worldpop/dhaka_bangladesh/dhaka_worldpop_2020_100m_arcgis.tif",
+      "jrc_gsw": {
+        "occurrence": "data/raw/jrc_gsw/dhaka_bangladesh/dhaka_gsw_occurrence_v1_4_2021.tif",
+        "seasonality": "data/raw/jrc_gsw/dhaka_bangladesh/dhaka_gsw_seasonality_v1_4_2021.tif",
+        "transitions": "data/raw/jrc_gsw/dhaka_bangladesh/dhaka_gsw_transitions_v1_4_2021.tif",
+        "extent": "data/raw/jrc_gsw/dhaka_bangladesh/dhaka_gsw_extent_v1_4_2021.tif"
+      },
+      "osm": {
+        "health_facilities": "data/raw/osm/dhaka_bangladesh/osm_health_facilities_dhaka.overpass.json",
+        "major_roads": "data/raw/osm/dhaka_bangladesh/osm_major_roads_dhaka.overpass.json",
+        "schools_waterpoints": "data/raw/osm/dhaka_bangladesh/osm_schools_waterpoints_dhaka.overpass.json",
+        "urban_landuse": "data/raw/osm/dhaka_bangladesh/osm_urban_landuse_dhaka.overpass.json",
+        "water_surface": "data/raw/osm/dhaka_bangladesh/osm_water_surface_dhaka.overpass.json",
+        "waterways": "data/raw/osm/dhaka_bangladesh/osm_waterways_dhaka.overpass.json"
+      },
+      "labels": {
+        "gbif_vector": [
+          "data/raw/map_gbif/dhaka_bangladesh/gbif_aedes_dhaka_occurrences.csv"
+        ]
+      }
+    },
+    "aoi_manifest": "data/manifests/dhaka_dengue_manifest.md",
+    "simsat_provider_repo": "SimSat",
+    "context_patch_geojson": "data/processed/vector-100k-demo/context_patches/dhaka_dengue/dhaka_dengue_s0043_label_positive_jitter_context.geojson"
+  },
+  "quality": {
+    "evidence_packet_available": true,
+    "sentinel_available": true,
+    "mapbox_available": true,
+    "sentinel_cloud_cover_percent": 0.000707,
+    "sentinel_datetime": "2025-11-08T04:42:14Z",
+    "sentinel_source": "sentinel-2a",
+    "mapbox_target_visible": true,
+    "source_packet_type": "simsat_sentinel2_mapbox_plus_open_layer_evidence_packet",
+    "sampling_strategy": "label_positive_jitter",
+    "packet_std": 47.6616,
+    "repair_attempts": 0
+  },
+  "numeric_features": {
+    "raster_stats": {
+      "rainfall_chirps": {
+        "valid_pixels": 262144,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p90": 0.0
+      },
+      "land_cover_worldcover": {
+        "valid_pixels": 0
+      },
+      "population_worldpop": {
+        "valid_pixels": 251735,
+        "min": 0.0,
+        "max": 1104.2334,
+        "mean": 304.5453,
+        "median": 259.0402,
+        "p90": 593.9317
+      },
+      "jrc_gsw_occurrence": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_seasonality": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_transitions": {
+        "valid_pixels": 0
+      },
+      "jrc_gsw_extent": {
+        "valid_pixels": 0
+      }
+    },
+    "osm_counts": {
+      "health_facilities": 381,
+      "major_roads": 2762,
+      "schools_waterpoints": 355,
+      "urban_landuse": 60187,
+      "water_surface": 87,
+      "waterways": 1485
+    },
+    "label_counts": {
+      "vector_label": 19,
+      "disease_label": 0,
+      "intermediate_host_label": 0,
+      "disease_aggregate": 0
+    }
+  },
+  "label_quality": {
+    "tier": "weak_label_positive",
+    "description": "Presence-only/vector/surveillance labels and ecological proxies; suitable for weak-supervision SFT, not calibrated epidemiological probability."
+  },
+  "license_flags": {
+    "mapbox_redistribution": "user_verified_for_project_use",
+    "sentinel_2": "copernicus_sentinel_open_data",
+    "open_data_layers": "source_specific_open_terms_apply",
+    "weak_labels": "presence_and_survey_biased"
+  },
+  "sampling": {
+    "sample_type": "label_positive_jitter",
+    "sampler_version": "stratified-v0.1"
+  }
+}
