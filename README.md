@@ -1,5 +1,11 @@
 # VectorOS LFM
 
+<p align="left">
+  <a href="https://huggingface.co/Alfaxad/Vector-LFM2.5-VL-450M"><img alt="Hugging Face model: Alfaxad/Vector-LFM2.5-VL-450M" src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-Vector--LFM2.5--VL--450M-FFD21E?style=for-the-badge&labelColor=222326" /></a>
+  <a href="https://huggingface.co/datasets/Alfaxad/vector-100k"><img alt="Hugging Face dataset: Alfaxad/vector-100k" src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-vector--100k-FFD21E?style=for-the-badge&labelColor=222326" /></a>
+  <a href="vector-lfm25vl-tech-report.pdf"><img alt="Technical report PDF" src="https://img.shields.io/badge/Technical%20Report-PDF-F4F5F8?style=for-the-badge&labelColor=222326" /></a>
+</p>
+
 **VectorOS LFM** is an open geospatial epidemiology demo for population-level
 surveillance reasoning. It combines satellite imagery, map context, climate,
 surface water, land cover, population exposure, OpenStreetMap features, and weak
