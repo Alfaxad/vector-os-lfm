@@ -48,7 +48,8 @@ treatment, or replace field validation.
 - SimSat Sentinel-2 and Mapbox image crops for the bundled demo chips.
 - Compact per-chip OSM and weak-label context patches for hoverable map
   analysis.
-- Model training/evaluation metadata under `artifacts/vector-lfm2.5-vl`.
+- Model training/evaluation metadata under
+  [artifacts/vector-lfm2.5-vl](artifacts/vector-lfm2.5-vl).
 - Technical report: [vector-lfm25vl-tech-report.pdf](vector-lfm25vl-tech-report.pdf).
 - Product specification: [docs/VectorOS_product_spec.md](docs/VectorOS_product_spec.md).
 
@@ -169,8 +170,14 @@ Full dataset:
 Technical report:
 [vector-lfm25vl-tech-report.pdf](vector-lfm25vl-tech-report.pdf)
 
-The fixed evaluation artifact is stored at
-`artifacts/vector-lfm2.5-vl/eval_comparison_fixed.json`.
+Run artifacts:
+[artifacts/vector-lfm2.5-vl](artifacts/vector-lfm2.5-vl)
+
+The run artifacts directory contains the training configuration, training
+summary, base-model evaluation metadata, and fixed base-vs-fine-tuned evaluation
+comparison. Judges can inspect it to verify the reported setup and metrics.
+The fixed comparison artifact is
+[artifacts/vector-lfm2.5-vl/eval_comparison_fixed.json](artifacts/vector-lfm2.5-vl/eval_comparison_fixed.json).
 
 | Metric | Base LFM2.5-VL-450M | Vector-LFM2.5-VL-450M | Delta |
 | --- | ---: | ---: | ---: |
